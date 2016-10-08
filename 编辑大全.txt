@@ -1,0 +1,1140 @@
+NO.1： 
+[CG]乳いぢめ爆乳姉妹狂宴谭03[106P] New
+我先教大家修改RULES.INI文件，这个文件可以到网上下载 
+
+  1.查找TeamDelays,这是RULES中最重要的AI命令.如TeamDelays=1200,1350,1600,它分别对应冷酷的,中等的,简单的敌人的部队建造间隔.一般设为250,250,250,与下面的代码连用的话你将体会到敌人连续攻击的厉害!  
+MinimumAIDefensiveTeams 电脑最小的防御部队数量  
+MaximumAIDefensiveTeams 电脑最大的防御部队数量  
+AISafeDistance 电脑聚集部队离敌方(我方)基地的距离  
+DisabledDisguiseDetectionPercent 电脑识别幻影坦克的几率  
+AttackInterval 电脑每次进攻的时间间隔(建议设为0)  
+AttackDelay电脑首次进攻的时间间隔(建议设为0)  
+PowerSurplus 电脑保留电量的大小(建议设为250) 
+repair and refit RefundPercent=50% 这是规定拍卖建筑物时价格与实际造价的比例为50%,要是改为120%就是说卖 价比造价高(有点变态！） 
+
+  2.空投规则 
+   GEF  
+;************ American Paradrop Special Rules ***********  
+;These two lists _must_ have the same number of elements  
+;AmerParaDropInf=E1,GHOST,ENGINEER  
+;AmerParaDropNum=6,6,6 ;How many of each of those infantry  
+
+AmerParaDropInf=E1 ;(美国空投步兵类型)  
+AmerParaDropNum=8 ;(美国空投步兵数量)  
+
+AllyParaDropInf=E1 ;(盟军占有科技机场空投步兵类型)  
+AllyParaDropNum=6 ;(盟军占有科技机场空投步兵数量)  
+
+SovParaDropInf=E2 ;(苏军占有科技机场空投步兵类型)  
+SovParaDropNum=9 ;(苏军占有科技机场空投步兵数量)  
+可以把E1和E2改成COW（母牛）如：AmerParaDropInf=COW   你就会看到美国空投母牛了（搞笑！）E1是美国大兵,E2是动员    
+    
+  3. 这是遭遇战模式下的玩家设置,加*的最好不要修改 
+[MultiplayerDialogSettings] 
+MinMoney=5000(可调最小资金) 
+Money=10000(默认资金) 
+MaxMoney=10000(可调最大资金,不要超过50000,否则数据有可能溢出) 
+MoneyIncrement=100 
+MinUnitCount=1(开始时最小单位数)* 
+UnitCount=10(开始时默认单位数) 
+MaxUnitCount=10(开始时最大单位数) 
+TechLevel=10* 
+GameSpeed=0* 
+AIDifficulty=0* 
+AIPlayers=0* 
+BridgeDestruction=yes(桥是否可摧毁) 
+ShadowGrow=no 
+Shroud=yes 
+Bases=yes* 
+TiberiumGrows=yes(矿石是否自然增长) 
+Crates=yes(升级工具箱) 
+CaptureTheFlag=no* 
+HarvesterTruce=no* 
+MultiEngineer=no* 
+AlliesAllowed=no(是否允许结盟) 
+ShortGame=yes(快速游戏)* 
+FogOfWar=no* 
+MCVRedeploys=yes(基地重新部署)* 
+
+  4.自然规则 
+   在RULES.INI中查找下列语句 
+RepairPercent=15% (修理建筑物所耗资金与原价比例) 
+BuildSpeed=.7 (建造时花费1000元所用时间,默认42秒,若改为".1"则只用6秒,暴快!  
+SoloCrateMoney=2000 (获得金钱升级工具箱所得资金) 
+ReloadRate=.3 (战机或反潜直升机重新装弹速度) 
+GrowthRate=5 (矿石自然增长速度,该值越大越慢)  
+
+  5.单位注册名字 
+   步兵类: 
+[E1]美国大兵 [SNIPE]狙击手 [E2]动员兵 [FLAKT]防空步兵 [SHK]磁暴步兵  
+[ENGINEER] 盟军工程师 [SENGINEER]苏军工程师 [JUMPJET]火箭飞行兵 
+[GHOST]海豹部队 [TANY]谭雅 [YURI]尤里 [IVAN]疯狂伊万 [DESO]辐射工兵 
+[CLEG]超时空军团兵 [DOG]苏军警犬 [ADOG]盟军警犬 [SPY]间谍 [TERROR]恐怖分子 
+战车类 
+[APOC]天启坦克 [DTRUCK]自爆卡车 [V3]V3火箭车 [DRON]恐怖机器人 [HARV]武装采矿车 
+[CMIN]超时空采矿车 [AMCV]盟军基地车 [SMCV]苏军基地车 [HTK]防空履带车 
+[HTNK]犀牛坦克 [MTNK]灰熊坦克 [MGTK]幻影坦克 [FV]多功能战斗车 [TNKD]坦克杀手 
+[TTNK]磁能坦克 [SREF]光棱坦克 
+舰船类 
+[SUB]攻击潜艇 [DLPH]海豚 [AEGIS]神盾巡洋舰 [CARRIER]航空母舰 [DRED]无畏级战舰 
+[HYD]海蝎 [DEST]驱逐舰 [SQD]乌贼 [LCRF]盟军气垫船 [SAPC]苏军气垫船 
+ 帖子相关图片: 
+作者： 61.161.70.*  2005-8-22 15:39 　 回复此发言   
+
+2  红警及尤里的复仇规则修改教程！！行少制作篇（独家）！！！！！ 
+
+战机类 
+[ORCA]入侵者战机 [SHAD]夜鹰直升机 [ZEP]基洛夫飞艇 [BEAG]黑鹰战机 
+建筑类 
+[GATECH]盟军作战实验室 [NATECH]苏军作战实验室 [GAWEAP]盟军战车工厂  
+[NAWEAP]苏军战车工厂 [GAREFN]盟军矿厂 [NAREFN]苏军矿厂 [GAOREP]矿石精炼器 [GAYARD]盟军船坞[NAYARD]苏军船坞 [GAAIRC]空指部 [AMRADR]美国空指部  
+[GASPYSAT]间谍卫星[GAGAP]裂缝产生器 [GAPOWR]盟军发电厂 [NAPOWR]苏军发电厂  
+[NAHAND]苏军兵营 [NARADR]雷达 [NADEPT]苏军修理厂[NACLON]复制中心  
+[GAPILE]盟军兵营 [GADEPT]盟军修理厂[GAWALL]盟军围墙 [NAWALL]苏军围墙  
+[NAIRON]铁幕装置 [GAWEAT]天气控制器 [GACSPH]时空转移器 [NAPSIS]心灵感应器 
+[TESLA]磁暴线圈 [ATESLA]光棱塔 [NAMISL]核弹井 [NALASR]哨戒炮 
+[GAPILL]碉堡 [NASAM]爱国者导弹 [NAFLAK]防空炮 [NANRCT]核电站 [GTGCAN]巨炮 
+
+
+如何提取红警游戏里面的文件： 
+红警游戏目录下有很多以mix为扩展名的文件，它们实际上是多个文件的集合，经过打包形成了一个文件（你可以把它想象成压缩文件）。红警游戏里面的许多游戏属性，都写在ini为扩展名的文件内，而ini文件就被藏在mix文件里。我们要修改游戏，就是把ini文件从mix文件中提取出来，经过对 ini文件进行修改，以达到我们修改游戏的目的。 
+要想把从mix文件中提取文件，目前最常用的工具就是“Xcc Mixer”。涤尘同志的主页“红警风暴”网站一直提供最新版本的“Xcc Mixer”系列工具，如果你手头还没有，赶快去下载吧。 
+下载后，解压缩，直接执行里面的“XCC Mixer.exe”文件即可运行该程序。 
+它的程序界面是这样的（本篇以XCC Mixer 1.24版为例）： 
+　 
+
+
+
+可以看到，这个窗口分为两个部分，左侧是一个目录窗口，它显示当前文件夹的内容及电脑内所有驱动器的分布情况：第一行“a:\”指的是电脑中的A 盘驱动器，第二行至第五行指的是硬盘上从C盘到F盘四个分区，第六行“g:\”是光盘驱动器。当然了，每台电脑的分区各不相同，也许你的硬盘分区较多， “g:\”就不是光盘驱动器了。第七行“..”指的是当前文件夹的上一级目录。你只要用鼠标双击上面的任一行，就可进入相应的目录。 
+我们利用上面的窗口就可以打开mix文件了。 
+下面以《阴云密布》为例详细介绍从mix文件中提取文件的方法： 
+在上面的窗口中用鼠标左键单击“文件”->“打开”，弹出一个标题为“打开”的窗口，在该窗口内找到并进入游戏目录，找到一个“expandmd01.mix”文件，在该窗口内双击这个文件，我们就打开了这个mix文件。如下图： 
+　 
+
+
+　 
+在左侧的窗口中可以看到这个mix文件中所包含的全部文件信息，它显示了每个文件的文件名、文件类型、文件大小等信息。用鼠标左键单击其中的某个文件（以“rulesmd.ini”为例），在右侧窗口立即可以显示这个文件的部分内容预览。 
+如果你要编辑这个文件（这个文件很重要），必须把它提取出来。方法是：用鼠标右键在左侧窗口单击这个文件，弹出的右键菜单中有一个选项是“释放（E）...”，用鼠标左键单击一下这个选项，出现一个以“另存为”为标题的窗口，你可以把这个“rulesmd.ini”文件释放到硬盘的任意一个地方，以方便你以后对它进行编辑。 
+
+
+  
+  
+
+作者： 61.161.70.*  2005-8-22 15:39 　 回复此发言   
+
+3  回复：红警及尤里的复仇规则修改教程！！行少制作篇（独家）！！！ 
+
+Rules编辑  
+士兵系列代码  
+
+士兵属性  
+Category=Soldier 只有士兵才能用，代表由训练类建筑（Factory=InfantryType）来“建造”他们  
+
+占领建筑  
+Occupier=yes 能否占领平民建筑=能  
+OccupyWeapon=UCMP5 占领平民建筑后使用的武器  
+ 
+EliteOccupyWeapon=UCMP5E 3级时占领平民建筑后使用的武器  
+OccupyPip= 建筑下面的人口标志小格的颜色，一共有5种颜色：PersonBlue为蓝色，盟军专用；PersonRed为红色，苏军专用；PersonPurple为紫色，尤里专用；PersonGreen为绿色，中国专用；没有此语句默认为白色  
+
+IFV装载时显示的名称  
+UseOwnName=true 一直使用自己的名称，比如将伯里斯装入步兵战车后，显示为“伯里斯 多功能步兵战斗车”  
+
+不可升级  
+Trainable=no 用了这个以后该单位无论杀多少人都不会升级，所以只用于遥控性单位或自爆性的单位，还有狗狗。但是强行拖进部队训练场后仍然可以升3级。没有此语句则默认可以升级。  
+
+盔甲类型 注意，盔甲类型和防御能力无关，只和弹头有关，即是说，有时候无盔甲比重型盔甲更经打  
+Armor=none 无盔甲  
+Armor=flak 英雄盔甲  
+Armor=Plate 重型盔甲  
+
+探测隐形  
+Sensors=yes 能探测隐形单位=能  
+SensorsSight=8 探测范围=8格，即当靠近敌放隐形单位8格以内时，敌放隐形单位将现身  
+
+维修建筑  
+Engineer=yes 凡是有了这个语句的单位都成了工程兵，可以进入己方受损建筑进行维修或进入敌放建筑强占  
+
+行动范围  
+MovementZone=Infantry 专用于步兵，位置判定在地面上高度1层以下的范围，只能在陆地上行走  
+MovementZone= 专用于飞行兵，位置判定在地面上高度1层以上的范围，可以到达任何地方  
+
+动作类型  
+Locomotor={4A582744-9839-11d1-B709-00A024DDAFD1} 步兵专用“行走”，单位图像为SHP，必须在Art里设置Sequence。默认SpeedType=Foot  
+SpeedType=Amphibious 两栖步兵单位专用，必须有水中的SHP动画以及对应的Sequence，同时需要加上语句“MovementZone=AmphibiousDestroyer”，这样就可以水陆两栖了。详细代码请见海豹。  
+Locomotor={4A582746-9839-11d1-B709-00A024DDAFD1} 飞行兵专用“飞行”，速度方式默认为SpeedType=Winged  
+SpeedType=Hover 使用了这个语句的飞行兵不会在空中不动，而是不停的上下浮动，同时需要加上语句“MovementZone=”，否则就是在地表悬浮了  
+
+IFV装载时的武器  
+IFVMode=0 只能用于步兵，对飞行兵毫无意义。数字代表IFV的武器和炮塔图形，共18种武器  
+
+免疫  
+ImmuneToVeins=yes 机动部队不会误伤他  
+ImmuneToPsionics=yes 精神控制对他无效，通常用于智力底下的单位、遥控单位、飞行式空军单位、英雄单位或召唤者单位  
+ImmuneToRadiation= yes 辐射对他无效  
+
+非人类单位  
+NotHuman=yes 动物专用，不知道究竟有什么实际的用处，通常人类单位都有语句“Category=Soldier或Civilian”，而动物没有  
+Natural=yes 野外生物专用，不知道有什么实际用处，通常和“NotHuman=yes”同时存在。狂兽人居然还有“Unnatural=yes”，难道是指半人+半兽？  
+
+平民单位  
+Category=Civilian 使用了这个语句后单位将随机地到处乱走，被攻击后有逃跑的动作，但这个动作必须由Sequence指定  
+
+对战初始兵力  
+AllowedToStartInMultiplayer=yes 使用yes的话就会在对战开场时随基地车出现，no则不出现。一个派别至少必须有一种士兵单位作为初始兵力，否则就会弹出出错对话框  
+
+自动进入范围防御状态  
+DefaultToGuardArea=yes 有了这个语句的单位，不需要人工指挥，只要达到GuardRange就会自动迎敌，通常用于射程较短的单位  
+
+永不畏惧  
+Fearless=yes 只用于控制单位的语音，永不畏惧即不管怎样挨打都不会叫苦，“VoiceFeedback和DieSound”就失去作用了  
+
+人口数量限制  
+BuildLimit=1 一次最多只能出这么多个这种单位，对机动部队和建筑同样有效（加载物除外），这个限制的数值不能超过255，通常限制英雄和特殊建筑只能有1个，对其他单位和建筑只要限制得合理平衡就好  
+帖子相关图片: 
+作者： 61.161.70.*  2005-8-22 15:45 　 回复此发言   
+
+4  回复：红警及尤里的复仇规则修改教程！！行少制作篇（独家）！！！ 
+
+
+
+
+机动部队系列代码  
+战车属性  
+Category=AFV 只有战车和战舰才能用，代表由陆军工厂类建筑（Factory=UnitType和WeaponsFactory=yes）来生产他们  
+Category=Support 用处同上，没有什么实际意义，“Support”难道是指“后勤部队”？  
+Category=Transport 运输工具专用，有了这个语句的战车可以装人或坦克  
+
+战舰属性  
+Naval=yes 除了必须使用战车属性的其中一种以外，还需要这个语句，代表由海军工厂类建筑（Factory=UnitType、WeaponsFactory=yes、Naval=yes和WaterBound=yes）来生产他们  
+
+空军属性  
+Category=AirPower 可以飞的机动部队专用，代表由陆军工厂类建筑或机场类建筑（Factory=AircraftType和Helipad=yes）来生产他们  
+ConsideredAircraft=yes 有此语句的飞机将从工厂的天窗出来  
+AirportBound=yes 有此语句的飞机将由机场类建筑生产  
+
+装甲类型 注意，装甲类型和防御能力无关，只和弹头有关，即是说，有时候轻型装甲比重型装甲更经打  
+Armor=light 轻型装甲  
+Armor=medium 中型装甲  
+Armor=heavy 重型装甲  
+Armor=special_1 轻型特殊装甲，我用他来做攻击机专用装甲  
+Armor=special_2 重型特殊装甲，我用他来做战斗机专用装甲   
+ 
+ 
+旋转炮塔  
+Turret=yes 可以不动车身，只需转动炮塔就可以打八方，海陆空通用。炮塔必须有对应的VXL和HVA  
+
+固定炮塔  
+Turret=no 没有炮塔的单位专用，如果给灰熊用上，则灰熊没了脑袋。通常用于战斗机，只要其武器里有语句“OmniFire=yes”  
+那么它不动机身就可以从固定的地方（如机翼两端）发射出武器对付八方的敌人，这招叫全向开火。详细请见飞龙  
+
+雷达隐形  
+RadarInvisible=yes 敌方在小地图里看不到它的存在，只在大地图里能看到。  
+
+可以探路  
+MoveToShroud=yes 默认的空军是不能把黑幕探亮的，有了这个语句，飞机就可以当作“飞在空中的坦克”用，可飞进黑幕探路  
+
+陆军动作方式  
+Locomotor={4A582741-9839-11d1-B709-00A024DDAFD1} 用于车辆单位，图像为VXL的单位能够正常的旋转、移动、摇晃、上下山，若是SHP则没有以上动作。它的速度方式默认为SpeedType=Wheel，只能在地面上行动  
+
+Locomotor={4A582742-9839-11d1-B709-00A024DDAFD1} 用于两栖单位的“悬浮”，在半空上下浮动，位置判定在地表，可以下水，如果又有语句“SpeedType=Amphibious和MovementZone= AmphibiousCrusher”，那么在水中的速度将大大快于岸上，但单位将与地面接触，失去了悬浮效果。详细请见风暴  
+
+不能停留于桥下  
+TooBigToFitUnderBridge=true 即使你让他们运动到桥下时按“S”强行停止，他们也会自动出来，除非是任务脚本的设置  
+
+碾压物体  
+Crusher=yes 陆军单位专用，可以碾压士兵  
+OmniCrusher=yes 战斗要塞的特点，可以碾压任何有生命的单位，包括围墙，需要和语句“MovementZone=CrusherAll”连用  
+OmniCrushResistant=yes 禁止被战斗要塞或其他战车碾压，效果和“Crusheable=no”相仿  
+
+隐藏于箱箱中  
+CrateGoodie=yes 在随机部队宝箱中能拾得它，千万不要用于战舰和飞机，否则小心出错，最好不要用于人，否则BT  
+
+运输单位  
+PipScale=Passengers 下方用小格表示容量空间  
+Passengers=10 容量空间大小，需要以被载者的体积来定可运载数量  
+OpenTopped=yes 被载者可以在里面向外开火，战斗要塞的特点  
+SizeLimit=6 装载口径，体积大于6的东西都无法进入  
+EnterTransportSound=EnterTransport 装载声音  
+LeaveTransportSound=ExitTransport 释放声音，这两个声音最好不要去更改  
+
+不可放入坦克堡垒  
+Bunkerable=no 没有此语句时默认可以放入  
+
+不接受攻击命令  
+StupidHunt=yes 常用于片面武器的单位，即使你强行叫它去打它不能攻击的东西，它也不会动  
+
+移动攻击  
+OpportunityFire=yes 可以一边移动一边开火，但命中率～～，所以通常用于武器为导弹、光束、机枪等的单位，如果武器为炮弹，则大有可能打偏。这个语句对没有炮塔而且又不能全向开火的单位无效  
+
+作者： 61.161.70.* 2005-8-22 15:45 　 回复此发言  
+
+5  回复：红警及尤里的复仇规则修改教程！！行少制作篇（独家）！！！ 
+
+
+喷气式飞行  
+JumpjetSpeed=32 平飞速度  
+JumpjetClimb=7 爬升速度，遇到山脉、楼房时抬升飞行高度时的上升速度  
+JumpjetCrash=15 被击落后的下落速度，不可大于15，否则就会在地面上打转，一直不死，且无法被攻击，也无法接受指令，因为判定认为它为已经死亡  
+JumpJetAccel=10 启动加速度，太大的话看不出加速的感觉  
+JumpJetTurnRate=2 掉转方向的速度，数值越小转弯半径就越小，转弯越快  
+JumpjetHeight=1000 平飞时离地面的高度，1000最为合适，大致在第6层到第8层之间  
+JumpjetNoWobbles=yes 禁止浮动，飞机在空中停留不动，不会上下浮动  
+
+永不落地  
+BalloonHover=yes 飞机从工厂出来以后就再不落地，除非遇到变形部署或被击落  
+
+可以落地  
+Landable=yes 常用于运输机，在地面上，只要没有指令时就会自动着陆，除非有人占据了它的着陆点  
+
+空中攻击  
+ 
+ 
+ 
+HoverAttack=yes 如果飞机在地面，那么必须升空以后方可攻击敌军  
+
+上方攻击  
+Fighter=yes 如果飞机处于它攻击对象的头顶上时仍然可以开火而且能够命中，否则不行，多用于攻击机和轰炸机  
+
+毫无主见  
+CanPassiveAquire=no 永远只在得到指令后才按计划行动，自己不会变通，更不会私自行动  
+CanRetaliate=no 打不还手，如果在执行指令（哪怕只是移动）的过程中遭到攻击也不会自动还手，此二语句最好不要滥用，通常只用于不易控制的单位、积极性太高的单位、极度危险的单位（如血咒）或是飞行式攻击机（如黑鹰）  
+
+展开部署  
+DeploysInto=DROD 按“D”展开后变成一个建筑，比如基地车变成基地  
+
+变形部署 注意，部署后将只能使用副武攻击  
+IsSimpleDeployer=yes 表示按“D”部署后仍然还是它自己，看似变成了另外一个单位，其实这只是障眼法  
+UnloadingClass=MMBTNK 部署后更换为MMBTNK的皮肤，这个MMBTNK必须是另一个有效的单位。其实完全可以继续使用它自己的皮肤  
+DeployingAnim=MMBDEPL 部署过程的动画，不要动画则是立刻变，看起来不连贯  
+DeployFire=yes 部署后可以开火，当然要能开火，否则还部署它干什么  
+Turret=yes 部署后使用旋转炮塔，当然要使用，因为部署后单位不能转动和移动，没有旋转炮塔还打什么打  
+
+释放部署  
+Deployer=yes 表示按“D”后使用副武攻击，这种副武由于是以它为中心向四周发散，所以成为释放型副武，通常有震荡波、混乱气流等。可以连续释放多次  
+DeployFire=yes 表示部署后立刻以副武开火  
+UndeployDelay=150 这个语句对战车无效，只对士兵有效，代表他在释放的时候将硬直这么多时间不能做其他任何动作，其硬直动作需要SHP支持并需要设置Sequence  
+
+
+建筑系列代码  
+建筑属性  
+BuildCat=Tech 科技类，没有生产作用的建筑，只提供建造前提，如作战实验室  
+BuildCat=Power 能源类，专门用于提供电力，只有这类建筑当Power值为正时不会损失动画效果  
+Factory=BuildingType 基地类，专门建造建筑。  
+BuildCat=Resource 资源类，专门负责采集矿石，只有这类建筑可以支持矿车进入并卸矿，需要和语句“DockUnload=yes及Refinery=yes”连用。前4类出现在建筑栏  
+BuildCat=Combat 防御类，出现在防御栏  
+
+材料类型 注意，材料类型和防御能力无关，只和弹头有关，即是说，有时候木质材料比钢精混凝土更经打  
+Armor=wood 木质材料  
+Armor=steel 钢铁材料  
+Armor=concrete 钢精混凝土材料  
+
+生产类型  
+Factory=InfantryType 兵营类，训练步兵，可以选择集合点  
+Factory=UnitType 工厂类，生产战车或喷气式战斗机，可以选择集合点，需要与“WeaponsFactory=yes”连用。如果有“WaterBound=yes”则是海军工厂，生产战舰  
+Factory=AircraftType 机场类，生产飞行式攻击机  
+
+维修作用  
+UnitRepair=yes 维修厂，维修破损的战车，可以选择出厂点  
+
+训练作用  
+Armory=yes 步兵训练场，非3级的步兵可以进入，出来后直接升成3级，不能选择集合点，但如果把训练场加上“Factory=InfantryType”，那么就可以选择集合点，但是训练场就成了2号兵营了  
+
+作者： 61.161.70.* 2005-8-22 15:45 　 回复此发言  
+
+6  回复：红警及尤里的复仇规则修改教程！！行少制作篇（独家）！！！ 
+
+Ammo=9999 训练数量，只能训练9999个人，通常把这个数字设多些（不能用-1），以保证几乎用不完的  
+
+加载作用  
+Upgrades=2 用于主体建筑，以它为基础，往它上面还可以加载2个部分  
+PowersUpBuilding=UAPOWR 用于附属部分，加载于主体建筑UAPOWR（地热发电厂），即只能放在主体建筑上面，不能放在空地或其他地方  
+PowersUpToLevel=-1 用于附属部分，表示总共可以加载的次数，通常需要无限加载，直到用满主体建筑的加载量2个为止，详细请见地热发电厂和能量涡轮之间的关系  
+ 
+回收建筑  
+UndeploysInto=FLMCV 建筑可以被命令移动而被拖开成为战车单位，通常用于基地的建立和回收  
+
+免费单位  
+FreeUnit=FLMIN 通常用于矿厂，建立以后出现一个免费赠送的单位。要是这个建筑可以反复收起来再展开，那么就可以生成一大堆免费单位，这么BT的招数专用于布雷战车，如果免费单位不是地雷而是光棱，那么就真的太BT了  
+
+用围墙包围  
+ProtectWithWall=yes 给电脑用的，电脑会给这个建筑以围墙保护  
+
+可被渗透  
+Spyable=yes 间谍可以进入，对于不同类的建筑可以产生一些不同的效果，进入机场以外的生产类建筑可以给单位加1级，进入雷达可以使对方地图全黑，进入电力类建筑可以断电1分钟，进入资源类建筑（收起来的农民矿厂不算）可以偷钱，进入超级武器可以重置其充能时间，进入实验室可以偷出一些科技单位。  
+
+可被吸取  
+Drainable=yes 飞碟可以吸取它的能量，或停止工作，或资金被吸收  
+
+可被占领  
+Capturable=true 工程兵可以进入占领，否则的话不能进入  
+
+特殊平台  
+Bib=yes 一些有特殊功能的建筑需要这个平台，比如机场用来停飞机，地面单位可以从这个平台上经过，这个Bib需要图形和ART的支持  
+
+无人控制  
+BaseNormal=no 这种建筑不能作为连接基础，通常用于防御建筑和船厂以及一些可以相隔很远建造的建筑  
+Crewed=no 这种建筑被击毁或卖掉后不会出来残兵，这个语句对地面战车也有效，但最好不要用于飞机和战舰，否则小心出错  
+
+过载建筑  
+Overpowerable=true 这种建筑可以被有“充能功能”的单位充能从而造成供能过多，实现攻击力加强，过载前用主武攻击，过载后的使用副武攻击，比如磁暴线圈和光明圣碑。  
+
+
+弹体系列代码  
+常规弹体  
+Damage=100 武器的攻击力，对于一些特殊的武器它还表示其他一些量，比如混乱气流的混乱时间、侦察机的探路面积、心灵控制可变敌人的总数等。1代表有特殊作用，可以攻击，但不造成伤害，0和2代表不能攻击，负数代表可以攻击，但不是伤害而是加血，比如维修车  
+AmbientDamage=200 武器的穿偷攻击力，只有当武器类型为声波和粒子系统类时才可以有穿偷效应  
+ROF=80 武器的发射频率，60表示1秒一次，数字越大就停顿得越久才发第二炮  
+Range=15 武器射程上限  
+MinimumRange=8 武器射程下限  
+Projectile=Cannon 武器的射弹形状及飞行轨迹，最常用的是Invisible一类无实体的射弹类型  
+Speed=40 弹体飞行速度，数字越大就飞得越快，但这个速度只对炮弹和导弹两类有实体的弹体有效  
+Warhead=ApocAP 弹体对应的弹头  
+Report=ApocalypseAttackGround 开炮时的炮口声音  
+Anim=GUNFIRE 开炮时的炮口动画，比如坦克炮开火时炮口有火花  
+DecloakToFire=no 当使用这个武器的单位处于隐形状态或被隐形屏蔽状态时，他开火是不会显形的  
+Burst=2 一炮发射2个炮弹，每一个炮弹都有攻击力，所以2个炮弹将造成双倍攻击力，建议这个数字不要大于4  
+Bright=yes 弹头击中目标或地面时将爆出一团闪光，Damage的值越大那么闪光面积就越大  
+
+隐蔽的弹体  
+RevealOnFire=no 这种单位在开火的时候不会显示给对方看，通常用于隐形单位、幻影单位和狙击单位  
+
+游戏平台定死了的弹体  
+IsLaser=true 激光类武器，其Projectile=Invisible类最好  
+IsMagBeam=yes 磁电波类武器，其Projectile=Invisible类最好  
+
+作者： 61.161.70.* 2005-8-22 15:45 　 回复此发言  
+
+7  回复：红警及尤里的复仇规则修改教程！！行少制作篇（独家）！！！ 
+
+IsSonic=Yes 声波类武器，其Projectile=Invisible类最好  
+
+可自定义的弹体  
+IsRailgun=true 雷射炮，属于粒子系统类武器，其Projectile=Invisible类最好，这个语句要和语句“AttachedParticleSystem”连用，还需要设置对应的粒子系统  
+
+光束设置  
+LaserInnerColor = 255,0,255 设置激光和雷射炮中心光束的颜色，InnerColor代表发射时的颜色  
+ 
+ 
+ 
+LaserOuterColor = 255,0,255 OuterColor代表逐渐暗淡到消失时的颜色  
+LaserOuterSpread= 255,0,255 OuterSpread代表向外围散开时的颜色  
+LaserDuration = 30 光束闪动的时间，数字越大，激光就越久才消失  
+IsHouseColor=false 如果有了以上3个Color值，那么这个语句一定要false。如果没有以上3个值，那么就必须为true，光束颜色自适应成玩家的所属色  
+
+自杀武器  
+LimboLaunch=yes 使用这种武器的单位开火后将消失，判定认为它已经死亡，人口空间里却还认为它存在。这种武器最好在射弹里设置上它的本体图形，这样看起来是它去撞击敌方单位，就象自爆飞机。使用自杀武器的单位最好不要限制它的人口数量，否则撞完了就不能再造了  
+
+高射武器  
+Lobber=yes 只用于有实体的弹体，其飞行路线将在开炮时先望上高抛，然后再落地  
+
+范围攻击  
+AreaFire=yes 用于释放类武器，要求部署后立刻释放攻击力，通常这种武器需要打一片，如果没有这个语句，这种武器将是无效的，部署后什么都不会发生  
+
+单次攻击  
+FireOnce=yes 若是士兵使用释放类武器，那么必须让他只释放一次，不然他从第2次以后一直在释放但却什么都释放不出来。若是战车使用，这个语句对他无效，因为战车的代码里没有一旦部署后就只能无限释放  
+
+辐射武器  
+RadLevel=350 这种武器击中任何地方都将造成核辐射，数值决定了核辐射的持久时间，越大就越久  
+
+射弹系列代码  
+炮弹类型  
+Image=120MM 弹头的图形，需要对应的SHP或VXL图象  
+Arcing=true 抛物线飞行轨迹，通常用于坦克炮和轰炸机的空投弹  
+SubjectToCliffs=yes 若在山下打山上，则弹头一定要撞在山体上。想要弹头顺利飞过去就把它no掉  
+SubjectToElevation=yes 若处于低处打高处，则弹头可能会无法及时爬升而撞在斜坡或山体上，想要它顺利飞过去就把它no掉  
+SubjectToWalls=yes 若隔着围墙打对面，如果弹头不能破墙则无法攻击目标，若可以破墙，则一定要把围墙打穿了才能攻击目标，想要它能直接飞越围墙命中目标就把它no掉  
+Shadow=yes 飞行中的弹头将在地面投影，通常用于高射武器和图形比较大的弹头，其实也可以不用  
+
+导弹类型  
+Arm=1 确定目标位置以前弹头将沿出镗方向飞行一段时间，直到锁定目标以后才开始转向。如果这个数值过大，那么导弹的飞行轨迹将是折线，而且命中率也不高。若为0则无法琐定目标（一直沿直线飞出去）。仅当为1的时候是在出镗时立即锁定目标，命中率极高  
+ROT=10 导弹飞行时拐弯的光滑程度，数值在2到10表示圆滑转弯，10以上是突然弯折，0到1为直线飞行不能转弯  
+Proximity=yes 如果目标飞出了射程上限的2倍距离时，导弹将自动爆掉而不会一直去追  
+Ranged=yes 对敌方飞机分析距离，如果超过了射程上限的2倍时将提示给Proximity让他来决定是否继续追击，这两个语句一定要连用，而且仅对速度在100以上的导弹有效。若导弹速度不到100，则必定一直追下去，常常看见导弹永远追不上飞机的情况，所以建议导弹速度最好都要大于 100  
+AA=yes 可以对空  
+AG=yes 可以对地，默认可以对地  
+AN=yes 可以对舰  
+AS=yes 可以反潜  
+Acceleration=3 给导弹的速度加倍，默认值是3倍  
+
+
+弹头系列代码  
+CellSpread=2 范围攻击的有效面积，默认面积为0.3  
+PercentAtMax=1 这么多格面积之内受到攻击为100%的伤害程度，这个数字最大不能超过CellSpread值  
+Wall=yes 可以破墙  
+Wood=yes 可以毁树  
+Sparky=yes 击中目标后将爆出一些随片  
+
+作者： 61.161.70.* 2005-8-22 15:45 　 回复此发言  
+
+8  回复：红警及尤里的复仇规则修改教程！！行少制作篇（独家）！！！ 
+
+Conventional=yes 常规的？？不知道到底有什么作用  
+Rocker=yes 可爆出气浪冲击VXL单位，如果对应的武器Damage值太大，或发炮频率过快都可能将单位掀翻  
+Verses=80%,60%,40%,40%,30%,30%,60%,50%,50%,100%,100% 对11种装甲类型的攻击比率，从左到右依次是：无盔甲、英雄盔甲、重型盔甲、轻型装甲、中型装甲、重型装甲、木质材料、钢铁材料、钢精混凝土材料、轻型特殊装甲、重型特殊装甲。对单位的伤害就是弹体的Damage值X其装甲类型对应的比率  
+ 
+ AnimList=VTEXPLOD 弹头击中目标后爆出的弹慕动画  
+ProneDamage=50% 对付匍匐状态中的步兵的攻击力比率。按道理来说枪炮类武器打爬下的兵应该比打站立的兵更难，建议这个值小于100%。当然导弹、激光、高射炮弹等武器在必要的时候可以使用100%甚至以上。  
+InfDeath=2 打死士兵时，士兵相应的死亡动作。0=中枪倒地， 1=被轰翻，2=explodes，3=ing death，4=burn death，5=electro，6=Yuri head explode，7=Nuke Melt  
+
+
+粒子系统设置  
+使用粒子系统之前先要注册名称，否则无效。粒子系统分为两个部分，第一是系统，在[ParticleSystems]里注册，比如SonicParticSys；第二是粒子形态，在[Particles]里注册，对应系统取名叫SonicParticPart。  
+粒子系统应用范围很广，他的攻击判定是，凡是被粒子形态接触的单位都要受伤害，于是就可以产生一片粒子伤害群体单位的情况，比如用于弹体将产生穿透攻击效应，一条线上的单位都要受伤害，除了平台自定义的Railgun以外，其他粒子系统都是不分敌我的伤害，使用的时候一定要小心，这是一种特别危险的武器。  
+弹体设置  
+AmbientDamage=3 穿透攻击力。凡是使用了粒子系统的弹体都应该设置穿透攻击，否则就白做粒子系统了  
+UseSparkParticles=yes 使用形态。Spark为飘散，常用于烟雾；Fire为喷射，常用于火焰  
+AttachedParticleSystem=SonicParticSys 使用系统。这个SonicParticSys就是我们要制作的粒子系统  
+
+粒子系统制作  
+[SonicParticSys]  
+HoldsWhat=SonicParticPart 关联的粒子形态为SonicParticPart  
+Spawns=yes 使用形态动画=是，可以自己画一个形态动画的SHP，注意要画满8个方向  
+SpawnFrames=3 动画帧频，每个粒子有一定的伤害，数字越大代表动画越密，即粒子数越多，那么总的伤害就越大  
+AffectsAllies=no 不伤害自己和盟友，这是一个无效的语句，因为粒子系统是不分敌我的伤害  
+BehavesLike=Railgun 形态行为，Railgun代表波动弹道，Spark代表飘散弹道，比如烟雾，Gas代表在空气中不定地移动，比如病毒气体，Smoke和Spark差不多，Fire代表喷射，通常呈一条直线喷射出去，遇到敌方突然转向的话，粒子系统将随之转向  
+Image=TWLT036 形态动画，这个也是个无效语句，在这里定义是没有用的  
+Lifetime=100 粒子存在时间，比如病毒气体的存在时间就比一般的粒子形态都长  
+
+粒子形态制作  
+[SonicParticPart]  
+Image=SONICBEAM 形态动画，在这里定义才有用，对应的SONICBEAM为自己画的SHP，注意要画满8个方向  
+AffectsAllies=no 无效的语句由来了  
+Deacc=0.01  
+Velocity=500 粒子飞出炮膛的速度当然要越快越好  
+BehavesLike=Fire 形态行为，和上面的意思一样  
+MaxEC=5 一次发射持续存在的帧数  
+MaxDC=3 每经过3个帧数时才开始产生攻击力  
+Warhead=SonicWav 粒子伤害对应的弹头，需要自己定义  
+Damage=3 粒子攻击力  
+StartStateAI=0 开始于动画的哪一帧  
+EndStateAI=8 结束于动画的哪一帧，首尾之间的间隔就是形态SHP一个方向上的帧数  
+StateAIAdvance=1  
+Translucent50State=5 产生一半攻击力的帧  
+Translucent25State=4 产生四分之一攻击力的帧  
+DeleteOnStateLimit=yes  
+Normalized=yes  
+FinalDamageState=4 最后有攻击力的帧  
+
+其他语句  
+Persistent=yes 粒子永远存在，好象不怎么有用，所以最好不用  
+StartFrame=0 从哪一帧开始发射，即发射的第一帧是哪个画面  
+NumLoopFrames=8 一次循环总共有8个帧  
+WindEffect=5 风力影响，从0到5，风力对粒子产生越来越大的飘移作用  
+Radius=2 粒子形态的体积倍率，2倍表示实际显示出来的是你画的SHP的两倍体积 
+ 以上语句由紫霞提供 
+
+作者： 61.161.70.* 2005-8-22 15:45 　 回复此发言  
+
+9  回复：红警及尤里的复仇规则修改教程！！行少制作篇（独家）！！！ 
+
+1.基本知识  
+
+C&C系列游戏,特别是红色警戒一代及其之後的游戏,其绝大多数设定都包含在文件RULES.INI中.这个文件一般被打包在游戏主文件包TIBSUN.MIX(泰伯利亚之日)或RA2.MIX(红色警戒二代)中的LOCAL.MIX文件包中.对C&C系列游戏的修改,其实主要就是对RULES.INI的修改.另外,ART.INI等的修改我们放到以後再讲.  
+现在有很多号称可以直接进行修改的工具,其实仍然是借对RULES.INI的修改而进行的.因此,在这里不涉及这些工具的操作.  
+
+2.加入新的部队  
+
+1.申明新部队  
+
+要加入一个新的部队,你必须先申明它.用随便哪个文本编辑器打开RULES.INI(如果没有,先用Xcc Mixer从TIBSUN.MIX(泰伯利亚之日)或RA2.MIX(红色警戒二代)提取它).查找:  
+"[InfantryTypes]":它以下申明了步兵部队  
+"[VehicleTypes]":它以下申明了车辆部队  
+"[AircraftTypes]":它以下申明了飞行部队  
+
+海军部队被包含在车辆部队中.它与车辆部队的不同在於移动和建造方式.另外,基洛夫飞艇和夜鹰直升机也是车辆部队(只不过移动方式为飞行).  
+
+在各种部队类型下,申明了各种部队.例如"1=E1"是对美国大兵的申明.要加入一个新的部队,在列表中加入一个此部队类型中没有使用的编号,例如步兵部队类型中46及其以後的编号都没有使用,你可以随便使用一个.不过,建议你按照数字的顺序选择,最好不要太大.在编号後加上一个等号"=",再加上你想使用的部队代码.部队代码也不能在此部队类型中重复.建议只使用数字和大写字母.  
+
+2.新部队属性定义  
+
+在注释行"; ******* Unit Statistics *******"後,定义了各种部队的属性.理论上,属性定义可以被放在RULES.INI中任何地方,但建议你把你的属性定义和其他部队放在一起.  
+  我们来看这个例子:天启坦克  
+; Mammoth tank  
+[APOC]  
+UIName=Name:APOC  
+Name=Apocalypse  
+Image=MTNK  
+Category=AFV  
+TargetLaser=yes  
+Primary=120mmx  
+Secondary=MammothTusk  
+Strength=800  
+Explodes=yes  
+Prerequisite=NAWEAP,NATECH  
+CrateGoodie=yes  
+Armor=heavy  
+Turret=yes  
+TechLevel=7  
+Sight=6  
+Speed=4  
+Owner=Russians,Confederation,Africans,Arabs  
+Cost=1750  
+Points=60  
+ROT=5  
+Crusher=yes  
+SelfHealing=yes  
+Crewed=no  
+IsSelectableCombatant=yes  
+Explosion=TWLT070,S_BANG48,S_BRNL58,S_CLSN58,S_TUMU60  
+VoiceSelect=GenSovVehicleSelect  
+VoiceMove=GenSovVehicleMove  
+VoiceAttack=GenSovVehicleAttackCommand  
+VoiceFeedback=  
+DieSound=GenVehicleDie  
+MoveSound=ApocalypseMoveStart  
+Maxdebris=3  
+Locomotor={4A582741-9839-11d1-B709-00A024DDAFD1}  
+Weight=3.5  
+MovementZone=Destroyer  
+ThreatPosed=40 ; This value MUST be 0 for all building addons  
+DamageParticleSystems=SparkSys,SmallGreySSys  
+AllowedToStartInMultiplayer=no  
+ZFudgeColumn=9  
+ZFudgeTunnel=15  
+Size=6  
+VeteranAbilities=STRONGER,FIREPOWER,ROF,SIGHT,FASTER  
+EliteAbilities=SELF_HEAL,STRONGER,FIREPOWER,ROF  
+ElitePrimary=120mmxE  
+
+这就是一组典型的部队属性定义.分号";"後的所有内容都被作为注释,没有实际意义."[部队代码]"说明这是哪种部队的属性定义,一个部队只能有一组属性定义.它以後的所有定义都被用於定义此部队,直到说明另一种部队的"[部队代码]"为止.每一行语句说明一种属性,不能重复,但没有顺序的要求.大多数语句有默认值,例如"TechLevel"(技术等级)默认为-1,因此不是所有的语句都要列出来.属性的值在等号後说明,某些语句可以有多个值,例如"VeteranAbilities"(升级为老兵所获得的能力).  
+
+加入部队最简单的方法就是先申明一个部队代码,然後选择一个你认为合适的现有部队,拷贝它的属性定义并冠以你所申明的部队代码.但关键的一点:你必需在你所申明的部队的属性定义中加入"Image="来说明它所使用的图形定义.图形定义是在ART.INI中所申明,默认为与部队代码相同.  
+帖子相关图片: 
+作者： 61.161.70.* 2005-8-22 15:49 　 回复此发言  
+
+10  回复：红警及尤里的复仇规则修改教程！！行少制作篇（独家）！！！ 
+
+
+3.部队属性语句列表  
+
+1.关於强度等的设定:  
+
+Armor 部队所使用的装甲类型.不同的弹头对不同的装甲有不同的杀伤效果.泰伯利亚之日中可选择"none","wood", "light", "heavy","concrete". 红色警戒二代中可选择None,Flak,Plate,Light, Medium, Heavy,Wood, Steel, Concrete,Special_1, Special_2.默认为"none".  
+
+Crushable 是否能被重型车辆部队所碾压.默认为"no".  
+
+CollateralDamageCoefficient 当此部队爆炸时,临近的部队会受到多大伤害.应该只对火风暴资料片有效.  
+
+Immune 是否不会受到伤害.默认为"no".  
+
+ImmuneToPsionics 是否不会受到尤里的精神控制  
+
+ImmuneToRadiation 是否不会受到辐射的伤害  
+
+LegalTarget 是否能够成为攻击的目标(如果该部队不属於我方,当鼠标移动到它之上时是否成为攻击箭头)  
+
+ImmuneToVeins 是否在泰伯利亚籐蔓中不会受到伤害.应该只对泰伯利亚之日有效.默认为"no".  
+
+SelfHealing 是否能够自我修复.默认为"no".  
+
+Strength 部队强度.使用数值.  
+
+TiberiumHeal 是否在泰伯利亚矿石中自我修复.应该只对泰伯利亚之日有效.默认为"no".  
+
+TiberiumProof 是否在泰伯利亚矿石中不会受到伤害.应该只对泰伯利亚之日有效.默认为"no".  
+
+TypeImmune 受到来自我方的同类型攻击不会受到伤害.一个例子是泰伯利亚之日中的音波坦克.它受到我方的音波坦克攻击不会受到伤害,但如果受到敌方的音波坦克攻击或我方其他部队的攻击就会受到伤害.默认为"no".  
+ 
+ 
+ 
+IsWebImmune Cyborg Reaper的猎人网是否对此部队无效.应该只对火风暴资料片有效.默认为"no".  
+
+2.关於移动,速度等的设定:  
+
+Acceleration 说明有多快的加速度  
+
+AccelerationFactor 说明有多快的加速度(嗯...这个我还不是很清楚...)  
+
+DeaccelerationFactor 说明有多快的负加速度  
+
+DeployTime 此部队展开为建筑或重新变为部队所需的时间(例如NOD自行炮)  
+
+Dock 部队停靠的建筑,例如矿车停靠於矿场,直升机停靠於机场.  
+
+IsTilter 是否在斜坡上倾斜.只对地面部队有效.默认为YES.  
+
+Locomotor 部队的移动方式.不要改动,只拷贝现有值!  
+
+地面车辆: 4A582741-9839-11d1-B709-00A024DDAFD1  
+气垫车辆: 4A582742-9839-11d1-B709-00A024DDAFD1  
+潜地车辆: 4A582743-9839-11d1-B709-00A024DDAFD1  
+步兵: 4A582744-9839-11d1-B709-00A024DDAFD1  
+飞机: 4A582746-9839-11d1-B709-00A024DDAFD1  
+步行车辆: 55D141B8-DB94-11d1-AC98-006008055BB5  
+喷气跳跃: 92612C46-F71F-11d1-AC9F-006008055BB5  
+
+MovementRestrictedTo 部队限制於某种地形移动.例如泰伯利亚之日中的列车.  
+
+MovementZones 移动区域.  
+
+武装气垫车辆:AmphibiousDestroyer  
+非武装气垫车辆:AmphibiousCrushercrushing  
+武装车辆: Destroyer  
+非武装,可碾压车辆:Crusher  
+非碾压车辆:Normal  
+飞机,喷气跳跃: Fly  
+潜地车辆:Subterannean  
+投雷兵,导弹兵:InfantryDestroyer  
+一般步兵: Infantry  
+
+MoveToShroud 是否可以移动进未探索地区  
+
+PitchSpeed 飞机起飞速度  
+
+PitchAngle 飞机起飞角度  
+
+Reload 部队重装弹时间(如果有弹药数量设定)  
+
+RollAngle 飞机转向角度  
+
+ROT 部队转向速度  
+
+Speed 部队速度  
+
+SpeedType 部队速度类型.  
+
+WalkRate 步行车辆步行速率  
+
+3.武器和作战:  
+
+Ammo 部队携带的弹药数量.默认为-1即无限.  
+
+C4 是否携带攻击建筑的炸药,只对步兵有效.  
+
+DeployFire 此部队在展开後可以开火  
+
+DeployToFire 必须先展开才能开火.(例如NOD自行炮)  
+
+DeployFireWeapon 展开後用何种武器开火.0代表主武器,1代表副武器  
+
+DistributedFire 可以向多个目标开火  
+
+ElitePrimary当成为精英部队後使用的武器  
+
+EliteSecondary当成为精英部队後使用的第二武器  
+
+作者： 61.161.70.* 2005-8-22 15:49 　 回复此发言  
+
+11  回复：红警及尤里的复仇规则修改教程！！行少制作篇（独家）！！！ 
+
+
+Explodes 当被摧毁後是否会爆炸.  
+
+EmptyReload 当弹药数为0後重新开始装弹所需时间  
+
+FireAngle 开火的角度  
+
+GuardRange 警戒距离  
+
+Gunner 是否可以变换武器.只对步兵战斗车有效.  
+
+NoMovingFire 不能在移动时开火  
+
+Primary 第一/主武器  
+
+Reload 部队重装弹的时间  
+
+Secondary 第二/副武器  
+
+TargetLaser 是否开火时会有瞄准激光.只是视觉效果而已.  
+
+ToProtect 此部队是否有其他部队保护.只对电脑玩家有效.  
+
+4.拥有,多少等的设定:  
+
+AllowedToStartInMultiplayer 是否在对战游戏一开始时出现.  
+
+BuildLimit 最大制造数量  
+
+Category 让计算机知道这是哪种部队.可以使用"Soldier", "Civilian", "VIP", "Ship", "Recon", "AFV", "IFV", "LRFS", "Support", "Transport", "AirPower" and "AirLift".  
+
+Cost 制造所需费用.  
+
+Name 部队的名字.现在只剩下注释作用了.  
+
+Nominal 是否显示其正确名称而不是"enemy object"  
+
+Owner 此部队的拥有者.例如"GDI","SOVIET".  
+
+Prerequisite 制造此部队所需的建筑.  
+
+TechLevel 技术级.设定为-1即为不可制造.  
+
+UIName部队的名称,在RA2.CSF中设定.  
+
+5.视野,音响的设定:  
+
+AuxSound1 飞机起飞声  
+
+AuxSound2 飞机降落声  
+
+CrushSound 此部队被碾压时发出的声音  
+DamageParticleSystems 此部队损坏时的效果  
+
+DeploySound 此部队的展开声  
+
+Disguised 能否伪装为敌方步兵  
+
+Explosion 爆炸时使用的效果  
+
+Image 部队所使用的图像定义,由ART.INI所定义.  
+
+Invisible 是否完全不为敌方所见.  
+
+Insignificant 是否不被敌方主动攻击.  
+
+Pip 此部队被容纳於运输单位中时显示的方格颜色.  
+
+PipScale 此部队所显示的方格的类型.可以使用"Passengers", "Tiberium", "Ammo", "Power".  
+
+RadarInvisible 是否无法被敌方雷达显示.  
+
+RadarVisible 是否当处於黑幕下时仍能被雷达显示.  
+
+VoiceSelect 部队被选择时的声音.  
+
+VoiceAttack 部队攻击时的声音.  
+
+VoiceDie 部队死亡时的声音.  
+
+VoiceFeedback 部队受到攻击时的声音.  
+
+VoiceMove 部队移动时的声音.  
+
+6.升级的设定:  
+
+EliteAbilities 部队成为精英後的能力:"FASTER", "STRONGER", "FIREPOWER", "SCATTER", "ROF", "SIGHT", "CLOAK", "TIBERIUM_PROOF", "VEIN_PROOF", "SELF_HEAL", "EXPLODES", "RADAR_INVISIBLE", "SENSORS", "FEARLESS", "C4", "TIBERIUM_HEAL", "GUARD_AREA", "CRUSHER". 可以多选.  
+
+VeteranAbilities 部队成为老兵後的能力:"FASTER", "STRONGER", "FIREPOWER", "SCATTER", "ROF", "SIGHT", "CLOAK", "TIBERIUM_PROOF", "VEIN_PROOF", "SELF_HEAL", "EXPLODES", "RADAR_INVISIBLE", "SENSORS", "FEARLESS", "C4", "TIBERIUM_HEAL", "GUARD_AREA", "CRUSHER". 可以多选.  
+
+7.其他:  
+
+Agent 是否具有间谍的能力.  
+
+Civilian 是否为平民.  
+
+Cyborg 是否为生化机器人.  
+
+Engineer 是否为工程师.  
+
+Fearless 是否不会趴下.  
+
+Infiltrate 是否能够进入敌方建筑.  
+
+VehicleThief 是否可以盗取敌方车辆.只对泰伯利亚之日有效.  
+
+这只是大致的列表,还有一些未列出,我会逐步添加进去.  
+
+=================================  
+
+第三战役:创造新的武器系统  
+
+一.基本知识  
+
+在c&c系列中,武器系统分为三个部分:基本定义,抛射体,弹头.其中弹头部分需要在[Warheads]下进行申明,而其他两个部分则不需要申明.  
+基本定义部分描述了该武器的威力,射程,射速等基本内容,同时定义该武器使用哪种抛射体,弹头.抛射体部分描述了该武器从发射到击中目标的运行方式以及某些限制,你可以将其想象为导弹的推进系统.弹头部分描述了该武器对不同的目标的杀伤效果等.  
+
+二.基本定义  
+
+基本定义的格式和部队属性定义一样,建议和其他武器放在一起以便阅读.  
+
+作者： 61.161.70.* 2005-8-22 15:49 　 回复此发言  
+
+12  回复：红警及尤里的复仇规则修改教程！！行少制作篇（独家）！！！ 
+
+
+基本定义有关的设定语句:  
+
+AmbientDamage= 是否在弹丸飞行的路径上造成伤害.例如:TIBSUN中猛　MK2的轨迹炮.  
+
+Anim= 该武器发射时在发射位置显示的动画,用於模拟开火时炮口的烟雾等效果.如果想让武器在指向不同角度时有不同效果(例如:机枪碉堡的效果),在不同动画之间用逗号隔开.例如Anim=MGUN-N,MGUN-NE,MGUN-E,MGUN-SE,MGUN-S,MGUN-SW,MGUN -W,MGUN-NW.顺序是顺时针.  
+
+AreaFire= 设定该武器发射时是否从单位所在位置为圆心,覆盖某大小的区域.此语句只能用於第二武器.  
+
+AttachedParticleSystem= 弹丸飞行的路径上使用的粒子效果.  
+
+Bright= 该武器发射时是否照亮周围地区.  
+
+Burst= 该武器一次发射所射出的弹丸数量.注意:每枚弹丸的威力都等於Damage设定的大小.  
+
+CellRangefinding= 是否在限定范围内寻找目标.  
+
+Camera= 是否发射时使四周的战争黑雾消散.只对RA一代有效.  
+
+Charges= 是否有充电效果.  
+
+Damage= 该武器每枚弹丸所造成的威力.  
+
+DecloakToFire= 该武器发射时是否解除部队的隐形状态(如果部队可以隐形).  
+
+FireOnce= 该武器是否下达一次攻击指令只使用一次.例如:尤里的精神控制.  Floate= 该武器的弹丸是否在地面上弹跳,例如:tibsun里的飞盘手雷.  
+
+IonSensitive= 该武器在离子风暴/闪电风暴到来时无法使用.  
+
+IsAlternateColor= 是否交替使用颜色.  
+
+IsBigLaser= 是否使用大型激光逻辑.  
+
+IsElectricBolt= 是否使用电流逻辑.  
+
+IsHouseColor= 是否使用部队所属颜色(即对战时选择的颜色).  
+
+IsLaser= 是否使用激光逻辑.  
+
+IsRadBeam= 是否使用辐射炮逻辑.  
+
+IsRailgun= 是否使用轨迹炮逻辑.  
+
+IsSonic= 是否使用音波逻辑.  
+
+LaserDuration =激光持续时间.  
+
+LaserInnerColor = 激光最内侧使用的颜色.  
+
+LaserOuterSpread 激光最外侧使用的颜色.  
+
+LimboLaunch= 该武器是否是用於寄生性武器.如果寄生性武器的这一行不定义为YES,则部队在攻击时不会寄生到目标,但攻击结束则会消失.  
+
+MinimumRange= 武器的最小射程.无法攻击处於这个距离内的敌人.  
+
+NeverUse= 永远不使用该武器.用於定义使某些附属单位可以处於警戒状态的假武器.  
+
+OmniFire= 部队使用该武器时是否需要将躯体转向目标.  
+
+Projectile= 定义该武器使用的抛射体定义.  
+
+RadLevel= 该武器击中目标後留下的辐射能量.注意:它定义的值只是描述辐射残留的时间.如果要改变辐射面积,你需要在弹头定义中用CellSpread定义武器的打击覆盖面积.  
+
+Range= 武器的最大射程.  
+
+Report= 武器发射时使用的音效.音效名称在SOUNDS.INI中定义.  
+
+RevealOnFire= 使用该武器时是否使四周的战争黑雾消散使敌人发现该部队.  
+
+ROF= 武器的射速.15为中速(middle speed)游戏时的1秒.  
+
+SabotageCursor= 是否使用C4炸药的鼠标指针代替原有的攻击鼠标指针.例如:谭亚攻击军舰时使用的武器.注意:只有当步兵使用该武器时才会产生效果.  
+
+Spawner= 该武器是否是使子部队(例如:航母的舰载机)产生作用的假武器.  
+
+Speed= 弹丸的飞行速度.100为最大.  
+
+Suicide= 部队使用该武器时是否同时摧毁自己(不管该武器是否会对自己产生伤害).  
+
+Supress RA2中未使用,意义不明.  
+
+TerrainFire= 该武器是否可以在树和巖石上获得攻击指针.  
+
+TurboBoost= 当该武器用於攻击空中目标时,是否速度获得提升.  
+
+UseFireParticles= 该武器是否使用flame particle system火燄粒子系统.  
+
+UseSparkParticles= 该武器是否使用火花粒子系统.  
+
+Warhead= 定义该武器使用的弹头定义.  
+
+要调用你所制作的武器系统,在部队属性中使用Primary和Secondary语句.你也可以制作你的武器系统的"加强版本",由 ElitePrimary和EliteSecondary调用,作为该部队成为精英後使用的武器.注意:调用语句(例如Primary=XXX)和定义语句(例如[XXX])的大小写必须相同.  
+
+作者： 61.161.70.* 2005-8-22 15:49 　 回复此发言  
+
+13  回复：红警及尤里的复仇规则修改教程！！行少制作篇（独家）！！！ 
+
+
+三.抛射体.  
+
+抛射体的格式和部队属性定义一样,建议和其他抛射体放在一起以便阅读.  
+
+抛射体有关的设定语句:  
+
+AA = 该武器是否可以攻击空中目标.  
+
+AG = 该武器是否可以攻击地面目标.  
+
+AN = 该武器是否可以攻击水上目标.  
+
+AS = 该武器是否可以攻击水下目标.  
+
+ASW = 是否为反潜抛射体.  
+
+Acceleration = 抛射体的加速度.  
+
+Airburst = 是否由飞越目标上方代替直接攻击目标.  
+
+Arcing = 该抛射体是否使用一条曲线路径.  
+
+Arm = 发射的准备时间.  
+
+Bouncy = 该抛射体是否在地面上反弹.  
+
+Cluster = 使用的爆炸数量.  
+
+Color = 使用特殊配色方案的抛射体使用的颜色.  
+
+CourseLockDuration = 该抛射体对它最初的目标锁定的时间.  
+
+Degenerates = 该抛射体是否在飞行时减弱.  
+
+Dropping = 是否从起始高度落下.  
+
+Level = 该抛射体是否始终处於同一高度.例如:鱼雷.  
+
+Elasticity = 该抛射体的弹性.  
+ 
+FirersPalette= 是否使用发射者的所属色.  
+
+FlakScatter= 该抛射体是否消散.  
+
+IgnoresFirestorm= 是否不会被火风暴防御墙阻挡.只对TIBSUN有效.  
+
+Image = 该抛射体使用的图像.和部队一样,都在ART.INI中定义.  
+
+Inaccurate = 该抛射体的不精确度.  
+
+Inviso = 该抛射体飞行时是否不可见.  
+
+Parachuted = 是否具有降落伞.可能只对RA一代有效.  
+
+Proximity = 是否趋近它的目标.例如:导弹.  
+
+ROT = 该抛射体的转弯率.  
+
+Ranged = 是否限定射程.  
+
+Scalable = 它的图像在飞行中上升或下降时是否变化.  
+
+Shadow = 是否描绘该抛射体的影子.  
+
+ShrapnelCount= 该武器分裂出的武器数量.  
+
+ShrapnelWeapon= 该武器分裂出的武器.  
+
+SubjectToCliffs = 该抛射体是否会被山丘阻挡.  
+
+SubjectToElevation = 该抛射体在高处发射时是否可以获得额外的射程.  
+
+SubjectToWalls = 该抛射体是否会被墙阻挡.  
+
+Vertical= 是否垂直飞行.  
+
+VeryHigh = 是否以一个极高的曲线飞行.  
+
+要调用你所制作的抛射体,在基本定义中使用Projectile=语句.注意:调用语句(例如Projectile=XXX)和定义语句(例如[XXX])的大小写必须相同.  
+
+四.弹头:  
+
+弹头的格式和部队属性定义一样,建议和其他弹头放在一起以便阅读.  
+
+弹头有关的设定语句:  
+
+AnimList = 当弹丸爆炸时使用的动画效果.  
+
+Bullets = 是否类似弹丸的效果.  
+
+CellInset = 告诉可以展开的部队展开前需要多少距离.  
+
+CellSpread= 杀伤的范围.  
+
+Conventional = 是否会在水面激起浪花.  
+
+Culling= 是否当目标血格变红时一次摧毁目标.  
+
+Fire = 是否可以融化冰面.只对TIBSUN有效.  
+
+InfDeath = 该弹头杀死步兵时使用的动画.0=立即死亡, 1=转动倒下, 2=爆炸, 3=弹飞, 4=烧死, 5=电死, 6=尤里造成的大脑爆炸, 7=核辐射.  
+
+IvanBomb= 是否为疯狂伊万炸弹武器.  
+
+MakesDisguise= 是否为伪装武器.  
+
+MindControl= 是否为精神控制武器.  
+
+Sonic= 是否为音波武器.  
+
+Parasite= 是否为寄生武器.  
+
+PercentAtMax = 在杀伤范围最远的地方所造成的伤害的比率.  
+
+ProneDamage = 对匍匐步兵造成的伤害比率.  
+
+Radiation = 是否是放射性武器.  
+
+Rocker = 是否可以产生冲击波,摇晃周围的部队.  
+
+ShakeXlo=  
+
+ShakeXhi=  
+
+ShakeYlo=  
+
+ShakeYhi= 爆炸时使屏幕晃动的尺寸大小.  
+
+Sparky = 是否残余火燄.  
+
+Temporal= 是否为时空武器.  
+
+Tiberium = 是否可以摧毁矿石.  
+
+Verses = 该弹头对不同的装甲产生的杀伤效果.依次为None, Flak, Plate(主要用於步兵),Light, Medium, Heavy(主要用於装甲部队),Wood, Steel, Concrete(主要用於建筑),Special_1(主要用於恐怖机器人), Special_2(主要用於导弹).0%代表根本不可能攻击此种装甲的部队.1%代表不会主动攻击此种装甲的部队.例如:0%,0%,0%, 100%,100%,100%,0%,0%,0%,100%,0%代表此武器只能攻击车辆,不能攻击步兵和建筑.  
+
+Wall = 是否可以摧毁墙.  
+
+WallAbsoluteDestroyer = 是否一次彻底摧毁一块墙.  
+
+Wood = 是否可以摧毁木墙.  
+
+　  
+
+要调用你所制作的弹头,在基本定义中使用Warhead=语句.注意:调用语句(例如Warhead=XXX)和定义语句(例如[XXX])的大小写必须相同.  
+
+由此我们可以看出,其实武器系统就是由这三个主要的板块,像搭积木一样,组合出千变万化的武器.  
+
+五.一些与武器系统有关的部队属性定义:  
+
+Bombable= 能否被疯狂伊万放置炸弹.  
+
+C4= 是否装备摧毁建筑的C4炸药.  
+
+CanApproachTarget= 能否趋近目标.  
+
+CanPassiveAquire= 能否自己寻找目标.  
+
+CanRetaliate= 是否受到攻击後自动反击.  
+
+DefaultToGuardArea= 是否一直处於警戒状态.  
+
+Fighter= 飞行部队攻击时是否左右摇晃.  
+
+LandTargeting = 对地面目标的攻击方式.0=可以攻击地面目标.1=不可以攻击地面目标.  
+
+MissileSpawn= 是否由其他部队产生的导弹类子部队.  
+
+NavalTargeting = 对水中目标的攻击方式.0=不能攻击水下.1=用第二武器攻击水下.2=只能攻击水下.3=用第二武器攻击生物目标.4=第一武器攻击地面,两栖和生物目标;用第二武器攻击水下和非生物目标.5=第一武器攻击所有目标.6=不能攻击水中目标.  
+
+OpportunityFire= 能否在进行其他工作时开火.  
+
+Parasiteable= 能否被寄生.  
+
+RadialFireSegments= 武器放射状发射的角度.  
+
+ReselectIfLimboed= 寄生攻击结束後能否重新选择.  
+
+Spawned= 是否由其他部队产生的子部队.  
+
+Spawns= 所产生的子部队.  
+
+SpawnsNumber= 产生的子部队数量.  
+
+SpawnRegenRate= 子部队被摧毁(或使用掉)後重生的速度.  
+
+SpawnReloadRate= 子部队装弹的速度.  
+
+TargetLaser= 是否具有激光瞄准线(无实际意义). 
+转自网易 
+
+作者： 61.161.70.* 2005-8-22 15:49 　 回复此发言  
+
+14  回复：红警及尤里的复仇规则修改教程！！行少制作篇（独家）！！！ 
+
+大家有什么问题请在上面留言 你自己可以修改一段编码 如有问题 我会给你们解答的 认真仔细的看完上面的代码 边学边做  
+不出多久 你就会成为一位优秀的MOD 
