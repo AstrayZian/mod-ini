@@ -1,0 +1,9 @@
+[MultiMaps]
+1=urbasslt
+
+[urbasslt]
+Description=XMM:urbasslt
+CD=0,1
+MinPlayers=2
+MaxPlayers=4
+GameMode=standard
