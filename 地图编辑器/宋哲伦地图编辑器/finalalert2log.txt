@@ -1678,6 +1678,7 @@ Loading: CASTRT05
 Loading: CABHUT
 Loading: INBLULMP
 Overlay: BRIDGE.ubn
+Loading: CAPOWR
 Loading: EUROC
 46 46
 vxl saved as EUROC7
@@ -1862,17 +1863,10 @@ vxl saved as CRUISE2
 vxl saved as CRUISE1
 186 186
 vxl saved as CRUISE0
-Loading: CALA09
 Loading: TREE15
 Loading: CAURB01
-Loading: LT_SGN03
-Loading: CASTL05H
-Loading: YENGINEER
-Loading: CAPOWR
-Overlay: SROCK05.ubn
-Loading: CATECH01
-Loading: CANEWY10
-Loading: CIVB
+Loading: TREE04
+Loading: LT_SGN01
 Loading: CAR
 52 52
 vxl saved as CAR7
@@ -1890,169 +1884,64 @@ vxl saved as CAR2
 vxl saved as CAR1
 52 52
 vxl saved as CAR0
-Loading: CACHIG04
-Overlay: SROCK01.ubn
-Loading: CANEWY14
-Loading: BURNT06
-SaveMap() called
-Calling UpdateIniFile()
-UpdateMapFieldData() called
-Memory allocated for mappack, saving fielddata into mapfields
-About to call Pack()
-Erasing sections
-Creating Digest
-Values allocated. Pointer: 217751568
-Packing overlay
-Saving overlay
-Pack overlaydata
-Format80
-Base64
-Overlaydata done
-Pack isomappack
-done
-hexdata size: 413676
-Now converting to base64done
-finished copying into inifile
-Loading: TREE13
-Loading: CALA08
-Loading: CANWY23
-Loading: CANEWY08
-Loading: CAPARS13
-Loading: CASYDN02
-Loading: CIVBBP
-Overlay: TIB11.ubn
-Loading: CAFARM01
-Loading: CAFARM02
-Loading: CAHSE07
-Loading: CAMISC02
-Loading: CAMISC01
-Loading: CAPARK03
-Loading: TREE04
-Loading: CACHIG03
-Overlay: LOBRDG21.ubn
-Overlay: LOBRDG01.ubn
-Overlay: LOBRDG04.ubn
-Overlay: LOBRDG02.ubn
-Overlay: LOBRDG03.ubn
-Overlay: LOBRDG19.ubn
-Loading: TREE23
-Overlay: LOBRDG13.ubn
-Overlay: LOBRDG11.ubn
-Overlay: LOBRDG10.ubn
-Overlay: LOBRDG12.ubn
-Overlay: LOBRDG25.ubn
-Overlay: GEM04.ubn
-Loading: TIBTRE01
-Loading: INGALITE
-Loading: GASPYSAT
-Loading: LT_SGN01
-Loading: CANEWY01
-Loading: CAWASH17
-Loading: GAPILL
-Loading: GTGCAN
-vxl barrel: 0 size: 62 62 at 85 30
-vxl turret: 0 size: 86 86 at 73 44
-vxl barrel: 1 size: 62 62 at 67 35
-vxl turret: 1 size: 86 86 at 73 44
-vxl turret: 2 size: 86 86 at 73 44
-vxl barrel: 2 size: 62 62 at 57 50
-vxl turret: 3 size: 86 86 at 73 44
-vxl barrel: 3 size: 62 62 at 58 67
-vxl turret: 4 size: 86 86 at 73 44
-vxl barrel: 4 size: 62 62 at 85 73
-vxl turret: 5 size: 86 86 at 73 44
-vxl barrel: 5 size: 62 62 at 108 60
-vxl turret: 6 size: 86 86 at 73 44
-vxl barrel: 6 size: 62 62 at 115 48
-vxl barrel: 7 size: 62 62 at 105 35
-vxl turret: 7 size: 86 86 at 73 44
-Loading: CAWASH11
-Loading: CASTL01
-Loading: CASTL02
-Loading: CANEWY06
-Overlay: CNFNCP.shp
-Loading: CANWY24
 Loading: CANEWY15
-Loading: CARUS08
-Loading: CARUS10
-Loading: CIVSFM
-Loading: CAMSC10
-Loading: CIVBFM
-Loading: CASANF15
-Loading: CABUNK04
-Loading: CAMOV01
-Loading: CAMIAM03
-Loading: CARUS11
-Loading: CALA07
-Loading: CAMORR01
-Loading: CALA06
-Loading: CASANF18
-Loading: CATEXS03
-Loading: CASANF17
-Loading: CALA05
-Loading: CATEXS05
-Loading: CANEWY20
-Loading: CANEWY21
-Loading: CANWY26
-Loading: CATEXS04
-Overlay: TROCK01.ubn
-Overlay: TROCK02.ubn
-Overlay: TROCK04.ubn
-Loading: CAHSE05
-Loading: CANWY25
-Loading: CAWASH07
-Loading: CAMISC06
-Loading: CAWT01
-Loading: CAHSE06
-Loading: TREE22
-Loading: CAHSE04
-Loading: CAHSE03
-Loading: TREE06
-Loading: CALA04
-Loading: CATEXS08
-Loading: CATEXS06
+Loading: LT_SGN04
+Loading: CIVBTM
+Loading: CAPARS02
+Loading: GAPOWR
 Loading: CABARR01
-Loading: TRFF03
-Loading: CARUS09
-Loading: TRFF04
-Loading: CALA15
-Loading: CAIND01
-Loading: CABARR02
-Overlay: SROCK04.ubn
-Loading: CAPARS08
-Loading: CAMORR04
-Loading: CAMORR05
-Loading: TRFF01
-Loading: CAPARS14
 Overlay: TROCK05.ubn
-Loading: CALA14
-Loading: AMBU
-62 62
-vxl saved as AMBU7
-62 62
-vxl saved as AMBU6
-62 62
-vxl saved as AMBU5
-62 62
-vxl saved as AMBU4
-62 62
-vxl saved as AMBU3
-62 62
-vxl saved as AMBU2
-62 62
-vxl saved as AMBU1
-62 62
-vxl saved as AMBU0
-Overlay: TROCK03.ubn
-Loading: BURNT05
-Overlay: SROCK03.ubn
-Loading: CAWASH14
-Loading: CRATER02
-Loading: CANEWY12
-Loading: CRATER08
-Loading: CRATER11
+Loading: YACOMD
+Loading: NAHAND
+Loading: GAWEAP
+Loading: NACLON
+Loading: YAGRND
+Loading: CIVSFM
+Loading: CAOUTP
+vxl turret: 0 size: 54 54 at 88 12
+vxl turret: 1 size: 54 54 at 88 12
+vxl turret: 2 size: 54 54 at 88 12
+vxl turret: 3 size: 54 54 at 88 12
+vxl turret: 4 size: 54 54 at 88 12
+vxl turret: 5 size: 54 54 at 88 12
+vxl turret: 6 size: 54 54 at 88 12
+vxl turret: 7 size: 54 54 at 88 12
+Loading: CAMSC02
+Loading: TREE23
+Loading: NAPSYA
+Loading: CAMACH
+Loading: CASLAB
+Loading: CATIME01
+Loading: CABARR02
+Loading: CIVB
+Loading: CAMSC05
+Loading: CAMSC03
+Loading: CAMSC04
+Loading: YACNST
+Loading: NACNST
+Loading: GACNST
+Overlay: GEM04.ubn
+Overlay: TIB11.ubn
+Loading: NANRCT
+Loading: CAOILD
+Loading: TIBTRE03
+Loading: YAROCK
+Loading: TIBTRE02
+Loading: TIBTRE01
+Loading: TREE35
+Loading: INGALITE
+Loading: NEGLAMP
+Loading: GAFWLL
+Loading: PRES
+Loading: CATHOSP
+Overlay: TROCK01.ubn
+Overlay: TROCK04.ubn
+Loading: TREE13
+Overlay: SROCK05.ubn
+Loading: TREE24
+Loading: CAFARM06
+Overlay: CNFNCP.shp
 Loading: CASIN03E
-Loading: BURNT01
 Loading: CONA
 68 68
 vxl saved as CONA7
@@ -2070,80 +1959,48 @@ vxl saved as CONA2
 vxl saved as CONA1
 68 68
 vxl saved as CONA0
+Overlay: SROCK03.ubn
+Loading: CRATER08
+Loading: CAHSE06
+Loading: CRATER02
+Overlay: SROCK04.ubn
 Loading: TREE09
-Loading: CAOILD
+Loading: LT_SGN03
+Loading: TRFF04
+Loading: BURNT01
+Loading: CRATER11
+Loading: CRATER01
+Loading: BURNT05
+Loading: TRFF01
 Loading: CRATER04
 Loading: CRATER10
-Loading: CRATER01
-Loading: CAPARS10
-Loading: CALAB
-Loading: CAMIAM04
-Loading: CATHOSP
-Loading: CAMACH
-Loading: CAOUTP
-vxl turret: 0 size: 54 54 at 88 12
-vxl turret: 1 size: 54 54 at 88 12
-vxl turret: 2 size: 54 54 at 88 12
-vxl turret: 3 size: 54 54 at 88 12
-vxl turret: 4 size: 54 54 at 88 12
-vxl turret: 5 size: 54 54 at 88 12
-vxl turret: 6 size: 54 54 at 88 12
-vxl turret: 7 size: 54 54 at 88 12
-Loading: SCHP
-198 198
-vxl saved as SCHP7
-198 198
-vxl saved as SCHP6
-198 198
-vxl saved as SCHP5
-198 198
-vxl saved as SCHP4
-198 198
-vxl saved as SCHP3
-198 198
-vxl saved as SCHP2
-198 198
-vxl saved as SCHP1
-198 198
-vxl saved as SCHP0
-Loading: CDEST
-122 122
-vxl saved as CDEST7
-122 122
-vxl saved as CDEST6
-122 122
-vxl saved as CDEST5
-122 122
-vxl saved as CDEST4
-122 122
-vxl saved as CDEST3
-122 122
-vxl saved as CDEST2
-122 122
-vxl saved as CDEST1
-122 122
-vxl saved as CDEST0
-Loading: CAPARS12
-Loading: PRES
-Loading: CARRIER
-162 162
-vxl saved as CARRIER7
-162 162
-vxl saved as CARRIER6
-162 162
-vxl saved as CARRIER5
-162 162
-vxl saved as CARRIER4
-162 162
-vxl saved as CARRIER3
-162 162
-vxl saved as CARRIER2
-162 162
-vxl saved as CARRIER1
-162 162
-vxl saved as CARRIER0
+Loading: CASYDN02
+Loading: CIVBFM
+Loading: CANEWY08
+Loading: CATEXS02
+Loading: TUG
+74 74
+vxl saved as TUG7
+74 74
+vxl saved as TUG6
+74 74
+vxl saved as TUG5
+74 74
+vxl saved as TUG4
+74 74
+vxl saved as TUG3
+74 74
+vxl saved as TUG2
+74 74
+vxl saved as TUG1
+74 74
+vxl saved as TUG0
+Loading: CABUNK03
+Loading: CALA09
 Overlay: GNWALL.shp
-Loading: GAPILE
+Loading: ATESLA
+Loading: CANEWY01
+Loading: SENGINEER
 Loading: MTNK
 8 1
 52 52
@@ -2169,8 +2026,10 @@ vxl saved as GTNK1
 7 1
 52 52
 vxl saved as GTNK0
-Loading: GAPOWR
-Loading: NEGLAMP
+Overlay: TROCK02.ubn
+Loading: CAWSH12
+Loading: CAMIAM01
+Loading: GAPILE
 Loading: FV
 8 -5
 58 58
@@ -2207,14 +2066,69 @@ vxl turret: 6 size: 54 54 at 22 -3
 vxl turret: 7 size: 54 54 at 22 -3
 Loading: GAWEAT
 Loading: GADEPT
-Loading: ATESLA
-Loading: GAGATE_A
-Loading: CAWSH12
 Loading: GATECH
-Loading: COW
-Overlay: SROCK02.ubn
-Loading: CAHSE01
-Loading: TREE34
+Loading: GAGATE_A
+Loading: CDEST
+122 122
+vxl saved as CDEST7
+122 122
+vxl saved as CDEST6
+122 122
+vxl saved as CDEST5
+122 122
+vxl saved as CDEST4
+122 122
+vxl saved as CDEST3
+122 122
+vxl saved as CDEST2
+122 122
+vxl saved as CDEST1
+122 122
+vxl saved as CDEST0
+Loading: CARRIER
+162 162
+vxl saved as CARRIER7
+162 162
+vxl saved as CARRIER6
+162 162
+vxl saved as CARRIER5
+162 162
+vxl saved as CARRIER4
+162 162
+vxl saved as CARRIER3
+162 162
+vxl saved as CARRIER2
+162 162
+vxl saved as CARRIER1
+162 162
+vxl saved as CARRIER0
+Loading: SCHP
+198 198
+vxl saved as SCHP7
+198 198
+vxl saved as SCHP6
+198 198
+vxl saved as SCHP5
+198 198
+vxl saved as SCHP4
+198 198
+vxl saved as SCHP3
+198 198
+vxl saved as SCHP2
+198 198
+vxl saved as SCHP1
+198 198
+vxl saved as SCHP0
+Loading: CAPARS12
+Loading: CAPARK03
+Loading: CAFARM02
+Loading: CAMISC01
+Loading: CAIND01
+Loading: CAFARM01
+Loading: CAHSE07
+Overlay: TROCK03.ubn
+Loading: CAMIAM04
+Loading: CAMSC06
 Loading: TRUCKA
 58 58
 vxl saved as TRUCKA7
@@ -2232,6 +2146,15 @@ vxl saved as TRUCKA2
 vxl saved as TRUCKA1
 58 58
 vxl saved as TRUCKA0
+Loading: CASTL05A
+Loading: CASTL05B
+Loading: CACHIG03
+Loading: CASTL05D
+Loading: CATECH01
+Loading: CAWASH07
+Loading: CASTL05F
+Loading: CASTL05G
+Loading: CASTL05H
 Loading: YCAB
 46 46
 vxl saved as YCAB7
@@ -2249,18 +2172,13 @@ vxl saved as YCAB2
 vxl saved as YCAB1
 46 46
 vxl saved as YCAB0
-Loading: CASTL05A
-Loading: CASTL05D
-Loading: CASTL05F
-Loading: CASTL05G
-Loading: CAWASH08
-Loading: CAPARS06
-Loading: CASTRT03
-Loading: CAPARS05
-Loading: CIVBTM
-Loading: CACHIG01
-Loading: CIVAN
-Loading: CASTRT04
+Loading: CAWASH17
+Loading: CAWASH11
+Overlay: LOBRDG01.ubn
+Overlay: LOBRDG03.ubn
+Overlay: LOBRDG19.ubn
+Loading: CASTL01
+Loading: CASTL02
 Loading: BCAB
 46 46
 vxl saved as BCAB7
@@ -2278,48 +2196,39 @@ vxl saved as BCAB2
 vxl saved as BCAB1
 46 46
 vxl saved as BCAB0
-Loading: CASTL05B
-Loading: CAMSC06
-Loading: NAPSYB
-Loading: CAMIAM01
-Loading: CACHIG06
-Loading: LT_SGN04
-Loading: CAPARS02
-Loading: CATEXS02
-Loading: CABUNK03
-Loading: TUG
-74 74
-vxl saved as TUG7
-74 74
-vxl saved as TUG6
-74 74
-vxl saved as TUG5
-74 74
-vxl saved as TUG4
-74 74
-vxl saved as TUG3
-74 74
-vxl saved as TUG2
-74 74
-vxl saved as TUG1
-74 74
-vxl saved as TUG0
+Loading: CACHIG04
+Loading: CANEWY14
+Loading: CIVBBP
+Loading: GAPILL
+Loading: GTGCAN
+vxl barrel: 0 size: 62 62 at 85 30
+vxl turret: 0 size: 86 86 at 73 44
+vxl barrel: 1 size: 62 62 at 67 35
+vxl turret: 1 size: 86 86 at 73 44
+vxl turret: 2 size: 86 86 at 73 44
+vxl barrel: 2 size: 62 62 at 57 50
+vxl turret: 3 size: 86 86 at 73 44
+vxl barrel: 3 size: 62 62 at 58 67
+vxl turret: 4 size: 86 86 at 73 44
+vxl barrel: 4 size: 62 62 at 85 73
+vxl turret: 5 size: 86 86 at 73 44
+vxl barrel: 5 size: 62 62 at 108 60
+vxl turret: 6 size: 86 86 at 73 44
+vxl barrel: 6 size: 62 62 at 115 48
+vxl barrel: 7 size: 62 62 at 105 35
+vxl turret: 7 size: 86 86 at 73 44
+Loading: CANEWY10
+Loading: CAWASH08
+Loading: CAMIAM03
+Loading: CALA08
+Loading: CARUS08
+Loading: CARUS10
+Loading: CANWY24
+Loading: CAPARS06
 Loading: CAPARS04
-Loading: CARUS02G
-Loading: CAFARM06
-Loading: CAMSC03
-Loading: CAMSC05
-Loading: CAMSC04
-Loading: CAMSC02
-Loading: TREE35
-Loading: TREE24
-Loading: NAPSYA
-Loading: CACOLO01
-Loading: TEMMORLAMP
-Loading: CASLAB
-Loading: CASANF05
-Loading: CATIME01
-Loading: CATIME02
+Loading: CIVAN
+Loading: CASTRT04
+Loading: CANWY23
 SaveMap() called
 Calling UpdateIniFile()
 UpdateMapFieldData() called
@@ -2327,7 +2236,7 @@ Memory allocated for mappack, saving fielddata into mapfields
 About to call Pack()
 Erasing sections
 Creating Digest
-Values allocated. Pointer: 339203232
+Values allocated. Pointer: 238567440
 Packing overlay
 Saving overlay
 Pack overlaydata
@@ -2336,7 +2245,7 @@ Base64
 Overlaydata done
 Pack isomappack
 done
-hexdata size: 413676
+hexdata size: 413028
 Now converting to base64done
 finished copying into inifile
 CLoading::~CLoading finished. Available memory: -2
