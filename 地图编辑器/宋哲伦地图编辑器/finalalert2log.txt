@@ -12,7 +12,7 @@ CLoading::Load() called
 
 Initializing FSunPackLib::XCC
 Initializing mix files
-InitMixFiles() called. Available memory: -773554177
+InitMixFiles() called. Available memory: -1241415681
 Loading TibSun.mix success
 Loading local.mix successful
 Loading conquer.mix, temperat.mix, isotemp.mix, isosnow.mix, isourb.mix and cache.mix successful
@@ -118,7 +118,7 @@ Searching F:\RA2\ra2\\Expandmd98.mix
 Searching F:\RA2\ra2\\Expandmd99.mix
 Searching F:\RA2\ra2\\ra2md.mix
 F:\RA2\ra2\\ra2md.mix found: loading conquer.mix, local.mix, snow.mix, generic.mix, urbann.mix, lunar.mix, desert.mix, isotemp.mix, isosnow.mix, isourb.mix, isoubn.mix, isolun.mix, isodes.mix, isoubn.mix, isolun.mix, isodes.mix, isogen.mix, ecache01md.mix, ubn.mix, lun.mix, des.mix, 
-InitMixFiles() finished. Available memory: -775839745
+InitMixFiles() finished. Available memory: -1245536257
 Loading palettes
 
 InitPalettes() called
@@ -288,8 +288,8 @@ LoadMap() frees memory
 LoadMap() loads map file
 LoadMap() repairs Taskforces (if needed)
 LoadMap() loads graphics
-CLoading::~CLoading finished. Available memory: -827109377
-InitMixFiles() called. Available memory: -827113473
+CLoading::~CLoading finished. Available memory: -1274843137
+InitMixFiles() called. Available memory: -1274847233
 Loading TibSun.mix success
 Loading local.mix successful
 Loading conquer.mix, temperat.mix, isotemp.mix, isosnow.mix, isourb.mix and cache.mix successful
@@ -395,9 +395,9 @@ Searching F:\RA2\ra2\\Expandmd98.mix
 Searching F:\RA2\ra2\\Expandmd99.mix
 Searching F:\RA2\ra2\\ra2md.mix
 F:\RA2\ra2\\ra2md.mix found: loading conquer.mix, local.mix, snow.mix, generic.mix, urbann.mix, lunar.mix, desert.mix, isotemp.mix, isosnow.mix, isourb.mix, isoubn.mix, isolun.mix, isodes.mix, isoubn.mix, isolun.mix, isodes.mix, isogen.mix, ecache01md.mix, ubn.mix, lun.mix, des.mix, 
-InitMixFiles() finished. Available memory: -827412481
-InitPics() called. Available memory: -827416577
-InitTMPs() called. Available memory: -850804737
+InitMixFiles() finished. Available memory: -1274503169
+InitPics() called. Available memory: -1274507265
+InitTMPs() called. Available memory: -1296957441
 blank01a.ubn not found
 mslop01a.urb not found
 mslop02a.urb not found
@@ -1866,13 +1866,9 @@ vxl saved as CRUISE1
 186 186
 vxl saved as CRUISE0
 Loading: CALA09
-Loading: CALA08
-Loading: CANWY23
 Loading: TREE15
 Loading: CAURB01
-Loading: TREE13
 Loading: LT_SGN03
-Loading: CAPARS13
 Loading: CAPOWR
 Overlay: SROCK05.ubn
 Loading: CATECH01
@@ -1899,33 +1895,68 @@ Loading: CACHIG04
 Overlay: SROCK01.ubn
 Loading: CANEWY14
 Loading: BURNT06
-Loading: CASYDN02
-Loading: NACNST
+Loading: TREE13
+Loading: CIVAN
+Loading: CALA08
+Loading: CASTRT04
+Loading: CANWY23
 Loading: TREE04
+Loading: CANEWY08
+Loading: CIVBTM
+Loading: CAPARS13
+Loading: CIVBBP
+Loading: CIVSFM
+Loading: BCAB
+46 46
+vxl saved as BCAB7
+46 46
+vxl saved as BCAB6
+46 46
+vxl saved as BCAB5
+46 46
+vxl saved as BCAB4
+46 46
+vxl saved as BCAB3
+46 46
+vxl saved as BCAB2
+46 46
+vxl saved as BCAB1
+46 46
+vxl saved as BCAB0
+Loading: CASTRT03
+Loading: CATRAN03
+Loading: CABARR01
+Loading: CAMIAM04
+Loading: TREE23
+Loading: TREE24
 Loading: LT_SGN01
-Loading: TREE09
-Loading: CAOILD
-Loading: TRFF04
+Loading: GAPILE
+Loading: GACNST
+Loading: YACNST
+Loading: NACNST
+Loading: CABARR02
+Loading: CAFARM06
 Overlay: GEM04.ubn
 Loading: TIBTRE01
-Loading: TIBTRE03
+Overlay: TIB11.ubn
+Loading: TREE35
 Loading: INGALITE
-Loading: TIBTRE02
-Loading: GACNST
+Loading: NEGLAMP
+Loading: CAMSC05
+Loading: CAOILD
 Loading: GASPYSAT
-Overlay: CNFNCW.shp
-Loading: YACNST
-Loading: CAWASH14
-Loading: TRFF01
-Loading: CALAB
-Overlay: TROCK04.ubn
-Overlay: SROCK03.ubn
-Overlay: TROCK03.ubn
-Loading: CATRAN03
+Loading: CAMSC03
+Loading: CAMSC04
+Loading: CAMSC02
 Loading: INPURPLAMP
-Loading: TREE06
-Loading: TREE23
-Overlay: SROCK04.ubn
+Overlay: TROCK01.ubn
+Overlay: TROCK05.ubn
+Loading: CIVBFM
+Loading: CASYDN02
+Overlay: TROCK04.ubn
+Loading: CATEXS02
+Loading: LT_SGN04
+Loading: CASIN03E
 Loading: CONA
 68 68
 vxl saved as CONA7
@@ -1943,9 +1974,34 @@ vxl saved as CONA2
 vxl saved as CONA1
 68 68
 vxl saved as CONA0
-Loading: CASIN03E
+Loading: TREE09
+Overlay: SROCK03.ubn
+Loading: TRFF04
+Loading: TIBTRE03
+Loading: TIBTRE02
+Overlay: SROCK04.ubn
 Overlay: TROCK02.ubn
-Loading: CABARR01
+Overlay: CNFNCW.shp
+Loading: CAWASH14
+Loading: TRFF01
+Overlay: TROCK03.ubn
+Loading: AEGIS
+114 114
+vxl saved as AEGIS7
+114 114
+vxl saved as AEGIS6
+114 114
+vxl saved as AEGIS5
+114 114
+vxl saved as AEGIS4
+114 114
+vxl saved as AEGIS3
+114 114
+vxl saved as AEGIS2
+114 114
+vxl saved as AEGIS1
+114 114
+vxl saved as AEGIS0
 Loading: CDEST
 122 122
 vxl saved as CDEST7
@@ -1963,28 +2019,13 @@ vxl saved as CDEST2
 vxl saved as CDEST1
 122 122
 vxl saved as CDEST0
-Loading: CABARR02
-Overlay: TROCK05.ubn
-Loading: CALA15
-Loading: AMBU
-62 62
-vxl saved as AMBU7
-62 62
-vxl saved as AMBU6
-62 62
-vxl saved as AMBU5
-62 62
-vxl saved as AMBU4
-62 62
-vxl saved as AMBU3
-62 62
-vxl saved as AMBU2
-62 62
-vxl saved as AMBU1
-62 62
-vxl saved as AMBU0
-Loading: CIVSFM
-Loading: CALA14
+Loading: CALAB
+Loading: TREE06
+Loading: CACHIG06
+Loading: CAMIAM01
+Loading: CANEWY15
+Loading: GAREFN
+Loading: CAHSE06
 Loading: VLAD
 138 138
 vxl saved as VLAD7
@@ -2020,50 +2061,72 @@ vxl saved as TUG1
 74 74
 vxl saved as TUG0
 Loading: CATHOSP
-Loading: CAPARS14
-Overlay: TROCK01.ubn
-Loading: CAPARS04
-Loading: AEGIS
-114 114
-vxl saved as AEGIS7
-114 114
-vxl saved as AEGIS6
-114 114
-vxl saved as AEGIS5
-114 114
-vxl saved as AEGIS4
-114 114
-vxl saved as AEGIS3
-114 114
-vxl saved as AEGIS2
-114 114
-vxl saved as AEGIS1
-114 114
-vxl saved as AEGIS0
-Loading: CAHSE06
-Loading: CAMOV01
-Loading: CACHIG01
-Loading: CARUS02G
-Loading: CATEXS06
-Loading: CATEXS08
+Loading: AMBU
+62 62
+vxl saved as AMBU7
+62 62
+vxl saved as AMBU6
+62 62
+vxl saved as AMBU5
+62 62
+vxl saved as AMBU4
+62 62
+vxl saved as AMBU3
+62 62
+vxl saved as AMBU2
+62 62
+vxl saved as AMBU1
+62 62
+vxl saved as AMBU0
+SaveMap() called
+Calling UpdateIniFile()
+UpdateMapFieldData() called
+Memory allocated for mappack, saving fielddata into mapfields
+About to call Pack()
+Erasing sections
+Creating Digest
+Values allocated. Pointer: 271974280
+Packing overlay
+Saving overlay
+Pack overlaydata
+Format80
+Base64
+Overlaydata done
+Pack isomappack
+done
+hexdata size: 413609
+Now converting to base64done
+finished copying into inifile
+Saving minimap
+Loading: NAMISL
+Loading: NANRCT
+Loading: YAWEAP
+Loading: CABUNK03
+Loading: CAPARK03
+Loading: GAPOWR
+Loading: CAPARS02
 Loading: CANWY24
 Loading: CAPARS06
-Loading: CIVBBP
-Loading: CANWY26
-Overlay: TIB11.ubn
-Loading: CAPARK03
-Loading: CIVAN
-Loading: CASTRT04
-Loading: CANEWY08
-Loading: CIVBTM
-Loading: CABUNK03
-Loading: CAFARM06
-Loading: LT_SGN04
-Loading: CAPARS02
-Loading: GAPILE
-Loading: CANEWY15
-Loading: CAMIAM04
-Loading: CAMSC06
+SaveMap() called
+Calling UpdateIniFile()
+UpdateMapFieldData() called
+Memory allocated for mappack, saving fielddata into mapfields
+About to call Pack()
+Erasing sections
+Creating Digest
+Values allocated. Pointer: 271974280
+Packing overlay
+Saving overlay
+Pack overlaydata
+Format80
+Base64
+Overlaydata done
+Pack isomappack
+done
+hexdata size: 413609
+Now converting to base64done
+finished copying into inifile
+Saving minimap
 Loading: SUB
 92 92
 vxl saved as SUB7
@@ -2081,80 +2144,194 @@ vxl saved as SUB2
 vxl saved as SUB1
 92 92
 vxl saved as SUB0
-Loading: TRUCKA
-58 58
-vxl saved as TRUCKA7
-58 58
-vxl saved as TRUCKA6
-58 58
-vxl saved as TRUCKA5
-58 58
-vxl saved as TRUCKA4
-58 58
-vxl saved as TRUCKA3
-58 58
-vxl saved as TRUCKA2
-58 58
-vxl saved as TRUCKA1
-58 58
-vxl saved as TRUCKA0
-Loading: CASTL05A
-Loading: CASTL05B
-Loading: CASTL05D
+Overlay: GNWALL.shp
 Loading: CANEWY01
+Loading: ATESLA
+Loading: NAPSYB
+Loading: CAWSH12
+Loading: CAMACH
+Loading: MTNK
+8 1
+52 52
+vxl saved as GTNK7
+9 1
+52 52
+vxl saved as GTNK6
+9 1
+52 52
+vxl saved as GTNK5
+9 1
+52 52
+vxl saved as GTNK4
+8 1
+52 52
+vxl saved as GTNK3
+7 1
+52 52
+vxl saved as GTNK2
+7 1
+52 52
+vxl saved as GTNK1
+7 1
+52 52
+vxl saved as GTNK0
+Loading: FV
+8 -5
+58 58
+vxl saved as FV7
+8 -5
+58 58
+vxl saved as FV6
+9 -5
+58 58
+vxl saved as FV5
+9 -5
+58 58
+vxl saved as FV4
+9 -5
+58 58
+vxl saved as FV3
+9 -6
+58 58
+vxl saved as FV2
+8 -6
+58 58
+vxl saved as FV1
+8 -6
+58 58
+vxl saved as FV0
+Loading: NASAM
+vxl turret: 0 size: 54 54 at 22 -3
+vxl turret: 1 size: 54 54 at 22 -3
+vxl turret: 2 size: 54 54 at 22 -3
+vxl turret: 3 size: 54 54 at 22 -3
+vxl turret: 4 size: 54 54 at 22 -3
+vxl turret: 5 size: 54 54 at 22 -3
+vxl turret: 6 size: 54 54 at 22 -3
+vxl turret: 7 size: 54 54 at 22 -3
+Loading: GAWEAT
+Loading: GADEPT
+Loading: CAPARS04
+Loading: CAMOV01
+Loading: CALA14
+SaveMap() called
+Calling UpdateIniFile()
+UpdateMapFieldData() called
+Memory allocated for mappack, saving fielddata into mapfields
+About to call Pack()
+Erasing sections
+Creating Digest
+Values allocated. Pointer: 274403952
+Packing overlay
+Saving overlay
+Pack overlaydata
+Format80
+Base64
+Overlaydata done
+Pack isomappack
+done
+hexdata size: 413609
+Now converting to base64done
+finished copying into inifile
+Saving minimap
+SaveMap() called
+Calling UpdateIniFile()
+UpdateMapFieldData() called
+Memory allocated for mappack, saving fielddata into mapfields
+About to call Pack()
+Erasing sections
+Creating Digest
+Values allocated. Pointer: 274924144
+Packing overlay
+Saving overlay
+Pack overlaydata
+Format80
+Base64
+Overlaydata done
+Pack isomappack
+done
+hexdata size: 413609
+Now converting to base64done
+finished copying into inifile
+Saving minimap
+Loading: CARUS02G
+Loading: CATEXS06
+Loading: CACHIG01
+Loading: CATEXS08
+Loading: CAPARS14
+Loading: CALA15
+Loading: CAIND01
+Loading: TRFF03
+Loading: CAMORR05
+Loading: CARUS11
+Loading: CARUS08
+Loading: TREE22
+Loading: CAHSE04
+Loading: CAMORR04
+Loading: CARUS09
+Loading: CATEXS04
+Loading: CAHSE03
+Loading: CAHSE05
+Loading: CANEWY20
+Loading: CANWY25
+Loading: CALA04
+Loading: CANEWY21
+Loading: CATEXS03
+Loading: CATEXS05
 Loading: CAWASH07
-Loading: CASTL05F
-Loading: CASTL05G
-Loading: YCAB
-46 46
-vxl saved as YCAB7
-46 46
-vxl saved as YCAB6
-46 46
-vxl saved as YCAB5
-46 46
-vxl saved as YCAB4
-46 46
-vxl saved as YCAB3
-46 46
-vxl saved as YCAB2
-46 46
-vxl saved as YCAB1
-46 46
-vxl saved as YCAB0
-Loading: CAWASH17
-Loading: CAWASH11
-Loading: CACHIG03
-Overlay: LOBRDG01.ubn
-Overlay: LOBRDG19.ubn
-Overlay: LOBRDG02.ubn
-Overlay: LOBRDG03.ubn
-Loading: SCHP
-198 198
-vxl saved as SCHP7
-198 198
-vxl saved as SCHP6
-198 198
-vxl saved as SCHP5
-198 198
-vxl saved as SCHP4
-198 198
-vxl saved as SCHP3
-198 198
-vxl saved as SCHP2
-198 198
-vxl saved as SCHP1
-198 198
-vxl saved as SCHP0
-Overlay: LOBRDG21.ubn
-Overlay: LOBRDG04.ubn
-Loading: CAFARM02
+Loading: CASANF18
+Loading: CANWY26
+Loading: CALA07
+Loading: CAMORR01
+Loading: CASANF17
+Loading: CALA05
+Loading: CALA06
+Loading: CAMISC06
+Loading: CAWT01
 Loading: CAMISC02
 Loading: CAMISC01
-Loading: CAHSE07
-Loading: CAFARM01
-Overlay: LOBRDG12.ubn
-Overlay: LOBRDG25.ubn
+Loading: DRED
+146 146
+vxl saved as DRED7
+146 146
+vxl saved as DRED6
+146 146
+vxl saved as DRED5
+146 146
+vxl saved as DRED4
+146 146
+vxl saved as DRED3
+146 146
+vxl saved as DRED2
+146 146
+vxl saved as DRED1
+146 146
+vxl saved as DRED0
+Loading: HYD
+72 72
+vxl saved as HYD7
+72 72
+vxl saved as HYD6
+72 72
+vxl saved as HYD5
+72 72
+vxl saved as HYD4
+72 72
+vxl saved as HYD3
+72 72
+vxl saved as HYD2
+72 72
+vxl saved as HYD1
+72 72
+vxl saved as HYD0
+Loading: AMMOCRAT
+Loading: TREE20
+Loading: CAMSC10
+Loading: CARUS10
+Loading: CABUNK04
+Loading: CANEWY06
+Overlay: CNFNCP.shp
+Loading: CASANF15
 Loading: GAPILL
 Loading: GTGCAN
 vxl barrel: 0 size: 62 62 at 85 30
@@ -2173,51 +2350,61 @@ vxl turret: 6 size: 86 86 at 73 44
 vxl barrel: 6 size: 62 62 at 115 48
 vxl barrel: 7 size: 62 62 at 105 35
 vxl turret: 7 size: 86 86 at 73 44
-Loading: CASANF15
-Loading: CANEWY06
 Loading: CASTL01
 Loading: CASTL02
-Overlay: CNFNCP.shp
-Loading: CAMSC10
-Loading: BCAB
+Overlay: LOBRDG19.ubn
+Overlay: LOBRDG03.ubn
+Overlay: LOBRDG01.ubn
+Loading: CAWASH17
+Loading: CAWASH11
+Overlay: LOBRDG02.ubn
+Overlay: LOBRDG04.ubn
+Overlay: LOBRDG21.ubn
+Loading: YCAB
 46 46
-vxl saved as BCAB7
+vxl saved as YCAB7
 46 46
-vxl saved as BCAB6
+vxl saved as YCAB6
 46 46
-vxl saved as BCAB5
+vxl saved as YCAB5
 46 46
-vxl saved as BCAB4
+vxl saved as YCAB4
 46 46
-vxl saved as BCAB3
+vxl saved as YCAB3
 46 46
-vxl saved as BCAB2
+vxl saved as YCAB2
 46 46
-vxl saved as BCAB1
+vxl saved as YCAB1
 46 46
-vxl saved as BCAB0
-Loading: CARUS08
-Loading: CARUS10
+vxl saved as YCAB0
+Loading: CASTL05F
+Loading: CASTL05D
+Loading: CASTL05A
+Loading: CACHIG03
+Loading: CASTL05B
+Loading: CASTL05G
+Loading: TRUCKA
+58 58
+vxl saved as TRUCKA7
+58 58
+vxl saved as TRUCKA6
+58 58
+vxl saved as TRUCKA5
+58 58
+vxl saved as TRUCKA4
+58 58
+vxl saved as TRUCKA3
+58 58
+vxl saved as TRUCKA2
+58 58
+vxl saved as TRUCKA1
+58 58
+vxl saved as TRUCKA0
 Loading: CAWASH08
 Loading: CAMIAM03
-Loading: CASTRT03
 Loading: CAPARS05
-Loading: TRFF03
+Loading: CAMSC06
 Loading: CAPARS08
-Loading: CARUS11
-Loading: CARUS09
-Loading: CAMORR04
-Loading: CAMORR05
-Loading: CAIND01
-Loading: TREE24
-Loading: CAMSC02
-Loading: CAMSC05
-Loading: CAMSC03
-Loading: CAMSC04
-Loading: CIVBFM
-Loading: NEGLAMP
-Loading: TREE35
-Loading: CATEXS02
 SaveMap() called
 Calling UpdateIniFile()
 UpdateMapFieldData() called
@@ -2225,7 +2412,7 @@ Memory allocated for mappack, saving fielddata into mapfields
 About to call Pack()
 Erasing sections
 Creating Digest
-Values allocated. Pointer: 166176760
+Values allocated. Pointer: 282817688
 Packing overlay
 Saving overlay
 Pack overlaydata
@@ -2238,6 +2425,55 @@ hexdata size: 413609
 Now converting to base64done
 finished copying into inifile
 Saving minimap
+Loading: GATECH
+Loading: GAGATE_A
+Loading: CARRIER
+162 162
+vxl saved as CARRIER7
+162 162
+vxl saved as CARRIER6
+162 162
+vxl saved as CARRIER5
+162 162
+vxl saved as CARRIER4
+162 162
+vxl saved as CARRIER3
+162 162
+vxl saved as CARRIER2
+162 162
+vxl saved as CARRIER1
+162 162
+vxl saved as CARRIER0
+Loading: CAPARS12
+Loading: PRES
+Loading: SCHP
+198 198
+vxl saved as SCHP7
+198 198
+vxl saved as SCHP6
+198 198
+vxl saved as SCHP5
+198 198
+vxl saved as SCHP4
+198 198
+vxl saved as SCHP3
+198 198
+vxl saved as SCHP2
+198 198
+vxl saved as SCHP1
+198 198
+vxl saved as SCHP0
+Loading: CAFARM02
+Loading: CAHSE07
+Loading: CAFARM01
+Overlay: LOBRDG12.ubn
+Overlay: LOBRDG11.ubn
+Overlay: LOBRDG13.ubn
+Overlay: LOBRDG10.ubn
+Overlay: LOBRDG25.ubn
+Loading: AMRADR
+Loading: GAROBO
+Loading: GAWEAP
 SaveMap() called
 Calling UpdateIniFile()
 UpdateMapFieldData() called
@@ -2245,7 +2481,7 @@ Memory allocated for mappack, saving fielddata into mapfields
 About to call Pack()
 Erasing sections
 Creating Digest
-Values allocated. Pointer: 166959104
+Values allocated. Pointer: 300841440
 Packing overlay
 Saving overlay
 Pack overlaydata
@@ -2258,4 +2494,4 @@ hexdata size: 413609
 Now converting to base64done
 finished copying into inifile
 Saving minimap
-CLoading::~CLoading finished. Available memory: -1077600257
+CLoading::~CLoading finished. Available memory: -1402064897
